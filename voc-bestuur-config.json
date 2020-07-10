@@ -5,6 +5,7 @@
   "publicatiedatum": "2018-06-26",
   "type_toepassing": "Verplicht",
   "categorie": "Vocabularium & applicatieprofielen",
+  "description_file" : "voc-bestuur.md",
   "specificatiedocument": [
     {
       "naam": "Vocabularium Bestuur",
