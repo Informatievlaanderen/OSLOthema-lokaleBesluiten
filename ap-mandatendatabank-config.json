@@ -1,11 +1,12 @@
 {
   "naam": "Applicatieprofiel Mandatendatabank",
+  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20/all-mandatendatabank.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Binnenlands Bestuur",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO001835",
   "publicatiedatum": "2018-07-20",
   "type_toepassing": "Verplicht",
   "categorie": "Vocabularium & applicatieprofielen",
-  "description_file" : "ap-mandatendatabank.md",
+  "beschrijving" : "ap-mandatendatabank.md",
   "specificatiedocument": [
     {
       "naam": "Mandatendatabank AP",
