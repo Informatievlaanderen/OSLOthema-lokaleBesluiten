@@ -568,6 +568,27 @@ gemeentebedrijf.""";
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Andere" ;
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
 
+<https://data.vlaanderen.be/id/concept/BesluitType/df483116-be05-4a2b-a68a-baf355c9bd81> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Definitieve beslissing tot fusie: de gemeenten keuren het gezamenlijke fusievoorstel goed als ze op basis van de resultaten van het voorbereidend onderzoek effectief tot een fusie willen overgaan.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Gezamenlijk voorstel tot fusie" ;
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/d85218e2-a75f-4a30-9182-512b5c9dd1b2> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Budget(wijziging) - Indiening bij toezichthoudende gemeente of provincie.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Budget(wijziging) - Indiening bij toezichthoudende gemeente of provincie" ;
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitType/d463b6d1-c207-4c1a-8c08-f2c7dd1fa53b> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "Budget(wijziging) - Indiening bij centraal bestuur of representatief orgaan.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Budget(wijziging) - Indiening bij centraal bestuur of representatief orgaan" ;
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
+
 <https://data.vlaanderen.be/id/conceptscheme/BesluitType> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
   <http://www.w3.org/2004/02/skos/core#definition> "Het type van de rechtsgrond. Bijvoorbeeld: reglement, wet, voorstel.";
   <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit type" .
