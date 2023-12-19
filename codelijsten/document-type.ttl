@@ -48,6 +48,27 @@
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Overzicht vergoedingen en presentiegelden";
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
 
+<https://data.vlaanderen.be/id/concept/BesluitDocumentType/fbe65218-836d-4e7a-a988-bb0b2cf26c7b> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "LEKP-rapport - Sloopbeleidsplan.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LEKP-rapport - Sloopbeleidsplan";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitDocumentType/275b452e-8e9e-40c5-a1e1-4a34a9f04e62> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "LEKP-rapport - Collectieve-energiebesparende-renovatie.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LEKP-rapport - Collectieve-energiebesparende-renovatie";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
+
+<https://data.vlaanderen.be/id/concept/BesluitDocumentType/62031aa8-2b35-48fd-9533-e76dc2cb040f> a <http://www.w3.org/2004/02/skos/core#Concept>,
+    <http://www.w3.org/2000/01/rdf-schema#Class>;
+  <http://www.w3.org/2004/02/skos/core#definition> "LEKP-rapport - Fietspaden.";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LEKP-rapport - Fietspaden";
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> .
+
 <https://data.vlaanderen.be/id/conceptscheme/BesluitDocumentType> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
   <http://www.w3.org/2004/02/skos/core#definition> "Het type van het document. Bijvoorbeeld: besluitenlijst, agenda,....";
   <http://www.w3.org/2004/02/skos/core#prefLabel> "besluit document type" .
