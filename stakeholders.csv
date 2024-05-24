@@ -1,24 +1,28 @@
 Voornaam;Naam;Affiliatie;E-mail;Website;Besluit;Mandaat;Bestuur;Mobiliteit
 Geert;Van Campenhout;ABB;;http://binnenland.vlaanderen.be;C;C;C;
 Heidi;Godderis;Agentschap Binnenlands Bestuur;heidi.godderis@bz.vlaanderen.be;http://binnenland.vlaanderen.be/;A;A;A;
-Katrien;De Smet;Agentschap Binnenlands Bestuur;katrien.desmet@bz.vlaanderen.be;http://binnenland.vlaanderen.be/;A;A;A;A
+Katrien;De Smet;Agentschap Binnenlands Bestuur;katrien.desmet@vlaanderen.be;http://binnenland.vlaanderen.be/;A;A;A;A
 Veronique;Volders;Agentschap Binnenlands Bestuur;veronique.volders@vlaanderen.be;http://binnenland.vlaanderen.be/;A;A;A;A
 Domien;Decloedt;Agentschap Binnenlands Bestuur;;http://binnenland.vlaanderen.be/;;;;A
+Veronique;Volders;Agentschap Binnenlands Bestuur;veronique.volders@vlaanderen.be;http://binnenland.vlaanderen.be/;;;;A
+Brecht;Van de Vyvere;Agentschap Binnenlands Bestuur;brecht.vandevyvere@vlaanderen.be;http://binnenland.vlaanderen.be/;;;;E
 Bert;Boterbergh;Agentschap Wegen en Verkeer;bert.boterbergh@mow.vlaanderen.be;http://wegenenverkeer.be/;;;;C
 Geert;Van Gaever;Agentschap Wegen en Verkeer;geert.vangaever@mow.vlaanderen.be;http://wegenenverkeer.be/;;;;C
 Lynn;Lodewyckx;Antwerpen;;http://stad.antwerpen.be;C;C;C;
-Melissa;Merckx;Antwerpen;;http://stad.antwerpen.be;C;C;C;
-Anne;Verbeeck;Balen;ann.verbeeck@balen.be;http://balen.be;;;;C
+Melissa;Merckx;Antwerpen;;http://stad.Antwerpen.be;C;C;C;
+Ann;Verbeeck;Balen;ann.verbeeck@balen.be;http://balen.be;;;;C 
 Griet;Wielockx;Balen;griet.wielockx@balen.be;http://balen.be;;;;C
 Sofie;Thoné;Boechout;sofie.thone@boechout.be;http://boechout.be;;;;C
 Sandra-Lien;Dubuy;Bredene;sandra.dubuy@bredene.be;http://bredene.be;;;;C
 Hubert;Schmitt;Bredene;hubert.schmitt@bredene.be;http://bredene.be;;;;C
 Inge;Van Mechelen;Bredene;inge.vanmechelen@bredene.be;http://bredene.be;;;;C
-Verbeke;Tom;Bredene;tom.verbeke@bredene.be;http://bredene.be;;;;C
+Tom;Verbeke;Bredene;tom.verbeke@bredene.be;http://bredene.be;;;;C 
 Micheline;Van Bogaert;CEVI;;http://www.cevi.be;C;C;C;
 Jonas;Tamsyn;Cipal Schaubroeck;;http://www.cipalschaubroeck.be;C;C;C;
 Reynder;Bierens;Cipal Schaubroeck;;http://www.cipalschaubroeck.be;C;C;C;
 Roel;Devriendt;Departement CJM;roel.devriendt@.vlaanderen.be;https://www.vlaanderen.be/cjm/nl;;;;C
+Jo;De Ruyver;Departement Mobiliteit en Openbare Werken;jo.deruyver@mow.vlaanderen.be;;;;A;
+Stephen;Tuerlinckx;Departement Mobiliteit en Openbare Werken;stephen.tuerlinckx@vlaanderen.be;https://mow.vlaanderen.be/;;;;C
 Els;De Reyt;Departement MOW;els.dereyt@vlaanderen.be;https://overheid.vlaanderen.be/;;;;C
 Stephen;Tuerlinckx;Departement MOW;;https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken;;;;C
 Katrien;Behiels;Digipolis;;http://digipolis.be;C;C;C;
@@ -27,9 +31,7 @@ Daniël;Adriaens;Herzele;;http://www.herzele.be;C;C;C;
 Marijke;Versteels;Herzele;;http://www.herzele.be;C;C;C;
 Miranda;Van Bockstaele;Herzele;;http://www.herzele.be;C;C;C;
 Niels;Manshanden;iBabs BV;;https://www.ibabs.eu/;C;C;C;
-Brecht;Van de Vyvere;imec - UGent;brecht.vandevyvere@ugent.be;http://idlab.ugent.be;E;E;A;E
-Dieter;De Paepe;imec - UGent;dieter.depaepe@ugent.be;http://idlab.ugent.be;A;A;A;
-Laurens;De Vocht;imec - UGent;laurens.devocht@ugent.be;http://idlab.ugent.be;E;E;;
+Brecht;Van de Vyvere;imec - UGent;brecht.vandevyvere@ugent.be;http://idlab.ugent.be;E;E;A;
 Eveline;Vlassenroot;Imec – Ugent;eveline.vlassenroot@ugent.be;https://www.ugent.be/ps/communicatiewetenschappen/mict;;;;A
 Dieter;De Paepe;imec-IDLab-UGent;dieter.depaepe@ugent.be;http://idlab.ugent.be;A;A;A;
 Erik;Mannens;imec-IDLab-UGent;erik.mannens@ugent.be;http://idlab.ugent.be;E;E;E;
@@ -40,6 +42,7 @@ Raf;Buyle;Informatie Vlaanderen;raf.buyle@vlaanderen.be;https://overheid.vlaande
 Els;Bossier;Informatie Vlaanderen;els.bossier@kb.vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;;;;A
 Jurgen;Dooms;Informatie Vlaanderen;Jurgen.Dooms@kb.vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;;;;A
 Naomi;Oste;Informatie Vlaanderen;naomi.oste@kb.vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;;;;A
+Raf;Buyle;Informatie Vlaanderen;raf.buyle@vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;;;;C
 Jef;Daems;Informatie Vlaanderen;jef.daems@kb.vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;;;;C
 Lies;De Meulenaer;Informatie Vlaanderen;lies.demeulenaer@kb.vlaanderen.be;https://overheid.vlaanderen.be/;;;;C
 Wouter;De Ryck;Informatie Vlaanderen;wouter.deryck@kb.vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;;;;C
@@ -64,13 +67,15 @@ Johan;Delaure;redpencil.io;johan.delaure@redpencil.io;http://redpencil.io;;;;A
 Jef;Peeters;Remmicom;;http://www.remmicom.be;C;C;C;
 Philippe;Smeets;Sint-Gillis-Waas;philippe.smeets@sint-gillis-waas.be;http://sint-gillis-waas.be;;;;C
 Annelien;Baes;Sint-Pieters-Leeuw;annelien.baes@sint-pieters-leeuw.be;http://sint-pieters-leeuw.be;;;;C
-Toon;Timbermont;Skryv;toon.timbermont@skryv.com;https://www.skryv.com/;;;;A
-Gerd;Morren;Stad ;gerd.morren@stad.antwerpen.be;http://stad.antwerpen.be;;;;C
+Niels;Vandekeybus;redpencil.io;niels.vandekeybus@redpencil.io;https://redpencil.io;;;;E
+Jef;Peeters;Remmicom;;http://www.remmicom.be;C;C;C;
+Philippe;Smeets;Sint-Gillis-Waas;philippe.smeets@sint-gillis-waas.be;https://sint-gillis-waas.be;;;;C
+Annelien;Baes;Sint-Pieters-Leeuw;annelien.baes@sint-pieters-leeuw.be;https://sint-pieters-leeuw.be;;;;C
 Chris;Van Molle;Stad Aalst;;http://Aalst.be;C;C;C;
 Sophie;Podevyn;Stad Aalst;;http://Aalst.be;C;C;C;
 Tom;Van Neyghem;Stad Aalst;tom.vanneyghem@aalst.be;http://Aalst.be;;;;C
 Joris;Verbeken;Stad Aalst;joris.verbeken@aalst.be;http://Aalst.be;;;;C
-Lieve;Vijverman;Stad Aalst;lieve.vijverman@aalst.be;http://aalter.be;;;;C
+Lieve;Vijverman;Stad Aalst;lieve.vijverman@aalst.be;http://aalst.be;;;;C
 Sara;Joly;Stad Aalter;sara.joly@aalter.be;http://aalter.be;;;;C
 Lien;Bakelants;Stad Antwerpen;lien.bakelants@stad.antwerpen.be;https://www.antwerpen.be/;;;;C
 Christiaan;Bossier;Stad Antwerpen;Christiaan.Bos@stad.Antwerpen.be;https://www.antwerpen.be/;;;;C
@@ -78,7 +83,9 @@ Gert;Brams;Stad Antwerpen;gert.brams@stad.antwerpen.be;https://www.antwerpen.be/
 Peter;Moreels;Stad Antwerpen;Peter.Moreels@stad.Antwerpen.be;http://stad.antwerpen.be;;;;C
 Bart;Van de voorde;Stad Antwerpen;Bart.VandeVoorde@stad.Antwerpen.be;http://stad.antwerpen.be;;;;C
 Tessa;Van Reyn;Stad Antwerpen;tessa.vanreyn@stad.antwerpen.be;http://stad.antwerpen.be;;;;C
-Verbruggen;Nicole;Stad Eeklo;nicole.verbruggen@eeklo.be;http://eeklo.be;;;;C
+Toon;Timbermont;Skryv;toon.timbermont@skryv.com;https://www.skryv.com/;;;;A
+Gerd;Morren;Stad Antwerpen;gerd.morren@stad.antwerpen.be;http://stad.antwerpen.be;;;;C
+Nicole;Verbruggen;Stad Eeklo;nicole.verbruggen@eeklo.be;http://eeklo.be;;;;C
 Ines;Acke;Stad Gent;;http://stad.gent;C;C;C;
 Sylvie;Roos;Stad Gent;;http://stad.gent;C;C;C;
 Lien;Allaert;Stad Gent;;http://stad.gent;;;;C
@@ -87,7 +94,7 @@ Stijn;Dobbelaere;Stad Gent;stijn.dobbelaere@stad.gent;http://stad.gent;;;;C
 Anne-Lies;Goossens;Stad Gent;annelies.goossens@stad.gent;http://stad.gent;;;;C
 Verhaeghe;Jonas;Stad Gent;jonas.verhaeghe@stad.gent;http://stad.gent;;;;C
 Steven;De Preter;Stad Lier;steven.depreter@lier.be;http://lier.be;;;;C
-Luc;Janssens;Stad Lier;luc.janssens@lier.be;http://lier.be;;;;C
+Luc;Janssens;Stad Lier;luc.janssens@lier.be;https://lier.be;;;;C
 Didier;Jonckheere;Stad Oostende;didier.jonckheere@oostende.be;http://oostende.be;;;;C
 Katrien;Van Daele;Stad Oostende;katrien.vandaele@oostende.be;http://oostende.be;;;;C
 Bastiaan;Deblieck;TenForce;bastiaan.deblieck@tenforce.com;http://tenforce.com;;;;C
