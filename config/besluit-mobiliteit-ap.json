@@ -1,6 +1,6 @@
 [
   {
-    "name": "besluit-mobiliteit-ap.json",
+    "name": "besluit-mobiliteit-ap",
     "type": "ap",
     "eap": "OSLO-Besluit-Mobiliteit-AP.eap",
     "diagram": "OSLO-Mobiliteit_applicatieprofiel_besluit_mobiliteit",
