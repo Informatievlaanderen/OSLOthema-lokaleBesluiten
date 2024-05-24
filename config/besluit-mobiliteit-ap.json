@@ -3,7 +3,7 @@
     "name": "besluit-mobiliteit-ap.json",
     "type": "ap",
     "eap": "OSLO-Besluit-Mobiliteit-AP.eap",
-    "diagram": "",
+    "diagram": "OSLO-Mobiliteit_applicatieprofiel_besluit_mobiliteit",
     "template": "besluit-mobiliteit-ap.j2",
     "title": "Besluit Mobiliteit - Applicatieprofiel",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
