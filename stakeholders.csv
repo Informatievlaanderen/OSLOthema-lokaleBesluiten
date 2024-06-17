@@ -1,14 +1,14 @@
-Voornaam,Naam,Affiliatie,E-mail,Website,Besluit,Mandaat,Bestuur,Mobiliteit
-Geert,Van Campenhout,ABB,,http://binnenland.vlaanderen.be,C,C,C,
-Brecht,Van de Vyvere,Agentschap Binnenlands Bestuur,brecht.vandevyvere@vlaanderen.be,http://binnenland.vlaanderen.be/,,,,E
-Domien,Decloedt,Agentschap Binnenlands Bestuur,,http://binnenland.vlaanderen.be/,,,,
-Heidi,Godderis,Agentschap Binnenlands Bestuur,heidi.godderis@bz.vlaanderen.be,http://binnenland.vlaanderen.be/,A,A,A,
-Katrien,De Smet,Agentschap Binnenlands Bestuur,katrien.desmet@vlaanderen.be,http://binnenland.vlaanderen.be/,A,A,A,
-Veronique,Volders,Agentschap Binnenlands Bestuur,veronique.volders@vlaanderen.be,http://binnenland.vlaanderen.be/,A,A,A,A
-Bert,Boterbergh,Agentschap Wegen en Verkeer,bert.boterbergh@mow.vlaanderen.be,http://wegenenverkeer.be/,,,,
-Geert,Van Gaever,Agentschap Wegen en Verkeer,geert.vangaever@mow.vlaanderen.be,http://wegenenverkeer.be/,,,,C
-Lynn,Lodewyckx,Antwerpen,,http://stad.antwerpen.be,C,C,C,
-Melissa,Merckx,Antwerpen,,http://stad.Antwerpen.be;C;C;C;
+Voornaam;Naam;Affiliatie;E-mail;Website;Besluit;Mandaat;Bestuur;Mobiliteit
+Geert;Van Campenhout;ABB;;http://binnenland.vlaanderen.be;C;C;C;
+Brecht;Van de Vyvere;Agentschap Binnenlands Bestuur;brecht.vandevyvere@vlaanderen.be;http://binnenland.vlaanderen.be/;;;;E
+Domien;Decloedt;Agentschap Binnenlands Bestuur;;http://binnenland.vlaanderen.be/;;;;
+Heidi;Godderis;Agentschap Binnenlands Bestuur;heidi.godderis@bz.vlaanderen.be;http://binnenland.vlaanderen.be/;A;A;A;
+Katrien;De Smet;Agentschap Binnenlands Bestuur;katrien.desmet@vlaanderen.be;http://binnenland.vlaanderen.be/;A;A;A;
+Veronique;Volders;Agentschap Binnenlands Bestuur;veronique.volders@vlaanderen.be;http://binnenland.vlaanderen.be/;A;A;A;A
+Bert;Boterbergh;Agentschap Wegen en Verkeer;bert.boterbergh@mow.vlaanderen.be;http://wegenenverkeer.be/;;;;
+Geert;Van Gaever;Agentschap Wegen en Verkeer;geert.vangaever@mow.vlaanderen.be;http://wegenenverkeer.be/;;;;C
+Lynn;Lodewyckx;Antwerpen;;http://stad.antwerpen.be;C;C;C;
+Melissa;Merckx;Antwerpen;;http://stad.Antwerpen.be;C;C;C;
 Ann;Verbeeck;Balen;ann.verbeeck@balen.be;http://balen.be;;;;
 Griet;Wielockx;Balen;griet.wielockx@balen.be;http://balen.be;;;;
 Sofie;Thoné;Boechout;sofie.thone@boechout.be;http://boechout.be;;;;
