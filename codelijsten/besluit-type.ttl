@@ -756,3 +756,10 @@
     <http://purl.org/dc/terms/replaces>  <https://data.vlaanderen.be/id/concept/BesluitDocumentType/a48f2ded-78a5-45e5-a5d8-077814cec39f>;
   <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
 
+<https://data.vlaanderen.be/id/concept/BesluitType/48c3290d-d9e3-4a38-b14e-e7c417e3a13a>
+  a <http://www.w3.org/2000/01/rdf-schema#Class>, <http://www.w3.org/2004/02/skos/core#Concept>;
+    <http://www.w3.org/2002/07/owl#deprecated> false;
+  <http://www.w3.org/2004/02/skos/core#definition> "Besluit van de raad van bestuur van het autonoom gemeentebedrijf of autonoom provinciebedrijf betreffende retributies." ;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.vlaanderen.be/id/conceptscheme/BesluitType>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Kerkenbeleidsplan eredienstbesturen" ;
+  <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.vlaanderen.be/id/conceptscheme/BesluitType> .
