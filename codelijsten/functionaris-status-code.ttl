@@ -1,0 +1,15 @@
+@prefix ns4: <http://data.vlaanderen.be/id/conceptscheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.vlaanderen.be/id/concept/functionarisStatusCode/45b4b155-d22a-4eaf-be3a-97022c6b7fcd>	<http://www.w3.org/2004/02/skos/core#definition>	"Wanneer de positie werd bekrachtigd door een besluit." ;
+   skos:note """Niet te verwarren met status 'aangesteld' binnen het uitvoeren van een politiek mandaat.""".
+<http://data.vlaanderen.be/id/concept/functionarisStatusCode/45b4b155-d22a-4eaf-be3a-97022c6b7fcd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Aangesteld" .
+<http://data.vlaanderen.be/id/concept/functionarisStatusCode/45b4b155-d22a-4eaf-be3a-97022c6b7fcd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> ;
+  skos:topConceptOf ns4:FunctionarisStatusCode ;
+  skos:inScheme ns4:FunctionarisStatusCode .
+
+<http://data.vlaanderen.be/id/concept/functionarisStatusCode/188fc9c0-dae7-43b2-b2b3-6122c1594479>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.vlaanderen.be/id/concept/functionarisStatusCode/188fc9c0-dae7-43b2-b2b3-6122c1594479>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Waarnemend" .
+<http://data.vlaanderen.be/id/concept/functionarisStatusCode/188fc9c0-dae7-43b2-b2b3-6122c1594479>	<http://www.w3.org/2004/02/skos/core#definition>	"Tijdelijk opdreden als / plaatsvervangend" ;
+  skos:topConceptOf ns4:FunctionarisStatusCode ;
+  skos:inScheme ns4:FunctionarisStatusCode .

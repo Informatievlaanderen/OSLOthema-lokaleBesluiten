@@ -194,3 +194,6 @@ ns4:e14fe683-e061-44a2-b7c8-e10cab4e6ed9
   skos:prefLabel "Comité" ;
   skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
   skos:inScheme ns3:BestuursorgaanClassificatieCode .
+
+ns3:BestuursorgaanClassificatieCode a skos:ConceptScheme;
+  skos:definition "De verschillende bestuursorganen die verschillende bestuurseenheden besturen.".

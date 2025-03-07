@@ -229,3 +229,22 @@ ns4:b213c870-c762-4e39-9f78-3abdeda4b64a
   skos:prefLabel "Vertegenwoordiger aangesteld door het representatief orgaan van het centraal bestuur van de eredienst" ;
   skos:topConceptOf ns3:BestuursfunctieCode ;
   skos:inScheme ns3:BestuursfunctieCode .
+
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/2962f0bd-2836-4758-9866-8ce8ea2c536f>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/2962f0bd-2836-4758-9866-8ce8ea2c536f>	<http://www.w3.org/2004/02/skos/core#definition>	"Bestuurslid van het bestuur van de eredienst (kleine helft): lid van het bestuursorgaan van een bestuur van de eredienst (=openbare instelling met rechtspersoonlijkheid belast met het beheer van de temporali\u00EBn van de erkende eredienst op een bepaald grondgebied) en verkozen in 2029, 2035, 2041 enz." .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/2962f0bd-2836-4758-9866-8ce8ea2c536f>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Bestuurslid van het bestuur van de eredienst (Kleine Helft)" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/a8b5509b-f86b-48f8-94d6-fe463a9b77e3>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Bestuurslid van het bestuur van de eredienst (Grote Helft)" .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/a8b5509b-f86b-48f8-94d6-fe463a9b77e3>	<http://www.w3.org/2004/02/skos/core#definition>	"Bestuurslid van het bestuur van de eredienst (grote helft): lid van het bestuursorgaan van een bestuur van de eredienst (=openbare instelling met rechtspersoonlijkheid belast met het beheer van de temporali\u00EBn van de erkende eredienst op een bepaald grondgebied)\u00A0 en verkozen in 2026, 2032, 2038, enz" .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/a8b5509b-f86b-48f8-94d6-fe463a9b77e3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/fa0201b3-2cda-4821-a15e-350ff57d77e0>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Lid van college" .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/fa0201b3-2cda-4821-a15e-350ff57d77e0>	<http://www.w3.org/2004/02/skos/core#definition>	"Een schepen en burgemeester zijn lid van het bestuursorgaan \u2018college van burgemeester en schepenen." .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/fa0201b3-2cda-4821-a15e-350ff57d77e0>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+

@@ -1,0 +1,8 @@
+@prefix ns4: <http://data.vlaanderen.be/id/conceptscheme/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.vlaanderen.be/id/concept/RepresentatiefOrgaanClassificatieCode/89a00b5a-024f-4630-a722-65a5e68967e5>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.vlaanderen.be/id/concept/RepresentatiefOrgaanClassificatieCode/89a00b5a-024f-4630-a722-65a5e68967e5>	<http://www.w3.org/2004/02/skos/core#definition>	"Elke erkende eredienst (of levensbeschouwing) in Belgi\u00EB heeft een door de federale overheid erkend representatief orgaan. Dit is de gesprekspartner met de verschillende burgerlijke overheden in Belgi\u00EB." .
+<http://data.vlaanderen.be/id/concept/RepresentatiefOrgaanClassificatieCode/89a00b5a-024f-4630-a722-65a5e68967e5>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Representatief orgaan" ;
+  skos:topConceptOf ns4:RepresentatiefOrgaanClassificatieCode;
+  skos:inScheme ns4:RepresentatiefOrgaanClassificatieCode .
