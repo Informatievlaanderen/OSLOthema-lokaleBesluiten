@@ -5,11 +5,12 @@
   "diagram": "OSLO-Mandaat",
   "template": "mandaat-voc.j2",
   "title": "Mandaat",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
-  "publication-date": "20-07-2018",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "12-03-2025",
+  "erkenningsdatum": "03-07-2018",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Mandaat",
   "site": "site-skeleton/mandaat-voc",
-  "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-mandaat/"
 }]
