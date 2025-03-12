@@ -10,7 +10,7 @@ fix EAP issues:
 2025-03-12T15:28:23.625Z error: [ElementConverterHandler]: Package tag was defined for element Model:OSLO²_applicatieprofiel_Mandaat_mandatendatabank:OSLO-Wetgeving:Legale Verschijningsvorm Onderdeel, but unable to find the object for package Besluit.
    > verwijder annotatie package besluit
 Error: [AttributeConverterHandler]: Unable to find domain object for attribute (Model:Domain Model:OSLO²_vocabularium:OSLO-Mandaat:Lidmaatschap:lidVanTot).
-   > TODO
+   > verwijder de ignore tag op de associatieklasse lidmaatschap
 Error: Unable to find the assigned URI for class http://www.w3.org/ns/prov#Entity which acts as a parent.
    > verwijder parentURI annotatie voor Generiek:Versie
 
