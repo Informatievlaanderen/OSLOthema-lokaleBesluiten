@@ -28,3 +28,6 @@ EAP besluit-publicatie: verwijder alles wat niet relevant is van OSLO-Mandaat vo
 EAP besluit-voc: verwijder niet relevante vocabularia om zo een beperkere EAP te bekomen.
 
 aanpassing basistemplates
+
+TODO: https://data.vlaanderen.be/doc/applicatieprofiel/besluit-publicatie/#Documentonderdeel%3Ais%20onderdeel%20van ontbreekt
+teveel https://data.test-vlaanderen.be/doc/applicatieprofiel/besluit-publicatie/ontwerpstandaard/toolchain4/#Mandataris%3Aistijdelijkvervangendoor
