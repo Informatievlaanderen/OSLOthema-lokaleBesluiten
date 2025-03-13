@@ -26,6 +26,7 @@ TODO:
 
 EAP besluit-publicatie: verwijder alles wat niet relevant is van OSLO-Mandaat vocabularium
 EAP besluit-voc: verwijder niet relevante vocabularia om zo een beperkere EAP te bekomen.
+    - eigenschap vergunt is ambigue in de range: via een tag is het rdfs:Resource en via UML is het Object (prov:Entity)
 
 aanpassing basistemplates
 
