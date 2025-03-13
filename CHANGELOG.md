@@ -33,3 +33,6 @@ aanpassing basistemplates
 
 TODO: https://data.vlaanderen.be/doc/applicatieprofiel/besluit-publicatie/#Documentonderdeel%3Ais%20onderdeel%20van ontbreekt
 teveel https://data.test-vlaanderen.be/doc/applicatieprofiel/besluit-publicatie/ontwerpstandaard/toolchain4/#Mandataris%3Aistijdelijkvervangendoor
+
+http://data.vlaanderen.be/ns/besluit#heeftVoorwaarde heeft ontbrekende definitie
+toolchain 4 issue: vocabularia ondersteunen geen subproperties
