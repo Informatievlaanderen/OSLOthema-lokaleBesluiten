@@ -19,4 +19,5 @@ gebruik de juiste basistemplates
    - vervang de feedback issue list met deze repo specifieke
    - gebruik de default JSON-LD generator output
 
-
+TODO:
+  herconfiguratie voor de associatieklasse in het AP.
