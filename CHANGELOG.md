@@ -15,5 +15,8 @@ Error: Unable to find the assigned URI for class http://www.w3.org/ns/prov#Entit
    > verwijder parentURI annotatie voor Generiek:Versie
 
 gebruik de juiste basistemplates
+   - verwijder links naar niet onderhouden pagina's
+   - vervang de feedback issue list met deze repo specifieke
+   - gebruik de default JSON-LD generator output
 
 
