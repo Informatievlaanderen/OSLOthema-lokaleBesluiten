@@ -24,4 +24,6 @@ TODO:
 
 ## besluit/besluit-publicatie
 
+EAP besluit-publicatie: verwijder alles wat niet relevant is van OSLO-Mandaat vocabularium
+
 aanpassing basistemplates
