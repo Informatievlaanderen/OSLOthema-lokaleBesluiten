@@ -21,3 +21,7 @@ gebruik de juiste basistemplates
 
 TODO:
   herconfiguratie voor de associatieklasse in het AP.
+
+## besluit/besluit-publicatie
+
+aanpassing basistemplates

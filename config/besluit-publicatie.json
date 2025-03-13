@@ -5,11 +5,12 @@
   "diagram": "OSLO-Besluit-Publicatie",
   "template": "besluit-publicatie-ap.j2",
   "title": "Besluit Publicatie",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
-  "publication-date": "20-07-2018",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "12-03-2025",
+  "erkenning-date": "20-07-2018",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Besluit",
   "site": "site-skeleton/besluit-publicatie-ap",
-  "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-besluit-publicatie/"
 }]

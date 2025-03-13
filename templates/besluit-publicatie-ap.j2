@@ -1,4 +1,4 @@
-{% extends "ap.j2" %}
+{% extends "ap2.j2" %}
 
 {% block introduction %}
 <p>Dit document beschrijft een <strong>applicatieprofiel</strong>, in dit geval <strong>{{ title }}</strong>.
@@ -37,7 +37,7 @@ Modellicentie Gratis Hergebruik - v1.0</a>.</p>
 </p>
 <p>Op 04/10/2018 werd dit document als Standaard gepubliceerd door de werkgroep Datastandaarden OSLO, bekrachtigd door het stuurorgaan Vlaams Informatie- en ICT-beleid op 03/07/2018 en goedgekeurd door de Vlaamse Regering op 20/07/2018.
 Deze standaard heeft het statuut van ‘verplicht toe te passen’.</p>                                                         
-<p>Feedback op deze specificatie kan gegeven worden via de <a href="mailto:digitaalABB@bz.vlaanderen.be">mailing lijst</a> of als een topic in onze <a href="https://github.com/Informatievlaanderen/OSLO-Public-Discussion">publieke reviewdiscussielijst</a>.</p>   
+<p>Feedback op deze specificatie kan gegeven worden via de <a href="mailto:digitaalABB@bz.vlaanderen.be">mailing lijst</a> of als een topic in onze <a href="https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues">publieke reviewdiscussielijst</a>.</p>   
 {% endblock %}
 
 {% block conformance %}
@@ -59,10 +59,6 @@ Deze standaard heeft het statuut van ‘verplicht toe te passen’.</p>
         <li>MAG uitgebreid worden met klassen en eigenschappen van andere datamodellen (vocabularia) die niet overlappen met terminologie uit dit applicatieprofiel.</li>
         </ul>
         </p> 
-{% endblock %}
-
-{% block jsonld %}
-<p>Een herbruikbare JSON-LD context definitie voor dit applicatieprofiel is terug te vinden op: <a href="https://data.vlaanderen.be/context/besluit-publicatie.jsonld" target="_blank">https://data.vlaanderen.be/context/besluit-publicatie.jsonld</a></p>
 {% endblock %}
 
 
