@@ -25,5 +25,6 @@ TODO:
 ## besluit/besluit-publicatie
 
 EAP besluit-publicatie: verwijder alles wat niet relevant is van OSLO-Mandaat vocabularium
+EAP besluit-voc: verwijder niet relevante vocabularia om zo een beperkere EAP te bekomen.
 
 aanpassing basistemplates
