@@ -37,6 +37,7 @@ teveel https://data.test-vlaanderen.be/doc/applicatieprofiel/besluit-publicatie/
 http://data.vlaanderen.be/ns/besluit#heeftVoorwaarde heeft ontbrekende definitie
 toolchain 4 issue: vocabularia ondersteunen geen subproperties
 
+
 ## besluit-mobiliteit
 Deze standaard is nog steeds Kandidaat. Contact moet opgenomen worden met de huidige editoren.
 
@@ -44,12 +45,16 @@ EAP:
   - pas verschillende range herlinkingen toe
   - verwijder OSLO-Mandaat
 
+VerkeersbordCategorie komt voor als enumeratie en klasse. TODO: Verwijder 1 van de 2
+
 template:
   - aanpassing naar nieuwe basistemplates
   - verwijding referntie naar JSON-LD, om de default generatie te gebruiken
 
 TODO:
   - status in de template staat ontwerp.
+  - toolchain 4 issue: Dimentie.waarde zou een xsd:float moeten zijn maar op een of andere manier wordt dit niet aanvaard. 
+          Tijdelijk naar integer gezet.
 
 # bestuur
 Deze standaard is een lege placeholder.
