@@ -40,6 +40,10 @@ toolchain 4 issue: vocabularia ondersteunen geen subproperties
 ## besluit-mobiliteit
 Deze standaard is nog steeds Kandidaat. Contact moet opgenomen worden met de huidige editoren.
 
+EAP:
+  - pas verschillende range herlinkingen toe
+  - verwijder OSLO-Mandaat
+
 template:
   - aanpassing naar nieuwe basistemplates
   - verwijding referntie naar JSON-LD, om de default generatie te gebruiken
