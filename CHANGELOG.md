@@ -44,6 +44,7 @@ Deze standaard is nog steeds Kandidaat. Contact moet opgenomen worden met de hui
 EAP:
   - pas verschillende range herlinkingen toe
   - verwijder OSLO-Mandaat
+  - pas range Template.waarde aan naar xsd:String ipv rdf:HTML (niet ondersteunde interne waarde)
 
 VerkeersbordCategorie komt voor als enumeratie en klasse. TODO: Verwijder 1 van de 2
 
