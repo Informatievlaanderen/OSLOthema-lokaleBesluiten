@@ -779,7 +779,7 @@ ns4:a3922c6d-425b-474f-9a02-ffb71a436bfc
   skos:inScheme ns3:BestuurseenheidClassificatieCode .
 ns4:cc4e2d67-603b-4784-9b61-e50bac1ec089
   rdf:type skos:Concept ;
-  skos:prefLabel "OCMW vereniging" ;
+  skos:prefLabel "VVMW" ;
   skos:topConceptOf ns3:BestuurseenheidClassificatieCode ;
   skos:inScheme ns3:BestuurseenheidClassificatieCode .
 ns4:ea446861-2c51-45fa-afd3-4e4a37b71562
@@ -816,6 +816,7 @@ ns4:e8294b73-87c9-4fa2-9441-1937350763c9
   rdf:type skos:Concept ;
   skos:prefLabel "Welzijnsvereniging" ;
   skos:topConceptOf ns3:BestuurseenheidClassificatieCode ;
+  skos:broader ns4:cc4e2d67-603b-4784-9b61-e50bac1ec089;
   skos:inScheme ns3:BestuurseenheidClassificatieCode .
 <http://data.vlaanderen.be/id/concept/BestuurseenheidClassificatieCode/66ec74fd-8cfc-4e16-99c6-350b35012e86>
   rdf:type skos:Concept ;
@@ -853,10 +854,11 @@ ns4:d90c511e-f827-488c-84ba-432c8f69561c
   skos:topConceptOf ns3:BestuurseenheidClassificatieCode ;
   skos:inScheme ns3:BestuurseenheidClassificatieCode .
 
-<http://data.vlaanderen.be/id/concept/BestuurseenheidClassificatieCode/34b5af85-dc9f-468f-9e03-ef89b174c267>	<http://www.w3.org/2004/02/skos/core#definition>	"Een autonome verzorgingsinstelling is een vereniging voor maatschappelijk welzijn (OCMW-vereniging) die een (gedeelte van) een ziekenhuis exploiteert. Ze is een vorm van OCMW-verzelfstandiging en heeft een publiekrechtelijk statuut." .
+<http://data.vlaanderen.be/id/concept/BestuurseenheidClassificatieCode/34b5af85-dc9f-468f-9e03-ef89b174c267>	<http://www.w3.org/2004/02/skos/core#definition>	"Een autonome verzorgingsinstelling behoort tot Verenigingen en Vennootschappen voor Maatschappelijk Welzijn (VVMW) die een (gedeelte van) een ziekenhuis exploiteert. Ze is een vorm van OCMW-verzelfstandiging en heeft een publiekrechtelijk statuut." .
 <http://data.vlaanderen.be/id/concept/BestuurseenheidClassificatieCode/34b5af85-dc9f-468f-9e03-ef89b174c267>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://data.vlaanderen.be/id/concept/BestuurseenheidClassificatieCode/34b5af85-dc9f-468f-9e03-ef89b174c267>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Autonome verzorgingsinstelling" ;
   skos:topConceptOf ns3:BestuurseenheidClassificatieCode ;
+  skos:broader ns4:cc4e2d67-603b-4784-9b61-e50bac1ec089;
   skos:inScheme ns3:BestuurseenheidClassificatieCode .
 
 <http://data.vlaanderen.be/id/concept/BestuurseenheidClassificatieCode/2ad46df5-5c79-4d67-84d5-604c1377231e>	<http://www.w3.org/2004/02/skos/core#definition>	"Een gemeente kan een gemeentelijk extern verzelfstandigd agentschap in privaatrechtelijke vorm (private EVA) oprichten voor welbepaalde beleidsuitvoerende taak van gemeentelijk belang. Een private EVA is een private rechtspersoon in de vorm van een vereniging, stichting of vennootschap." .
@@ -1489,41 +1491,6 @@ ns1:Onafhankelijk
 <http://data.vlaanderen.be/id/concept/functionarisStatusCode/188fc9c0-dae7-43b2-b2b3-6122c1594479>	<http://www.w3.org/2004/02/skos/core#definition>	"Tijdelijk opdreden als / plaatsvervangend" ;
   skos:topConceptOf ns4:FunctionarisStatusCode ;
   skos:inScheme ns4:FunctionarisStatusCode .
-@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
-@prefix ns2:	<http://data.vlaanderen.be/id/conceptscheme/> .
-@prefix ns3:	<http://data.vlaanderen.be/id/concept/GeregistreerdeOrganisatieClassificatieCode/> .
-
-<http://data.vlaanderen.be/id/concept/GeregistreerdeOrganisatieClassificatieCode/82fd21dc-e8bb-4d13-a010-f4a12358ef10>
-  rdf:type	skos:Concept ;
-  skos:definition	"Een openbaar centrum voor maatschappelijk welzijn (OCMW) kan, onder bepaalde voorwaarden, een vzw oprichten voor de exploitatie van een woon- en zorgcentrum. Een OCMW kan onder dezelfde voorwaarden ook toetreden tot een bestaande vzw of vso. De vzw of vso neemt dan de vorm aan van een woonzorgvereniging of -vennootschap." ;
-  skos:prefLabel	"Woonzorgvereniging of woonzorgvennootschap" ;
-  skos:inScheme	ns2:GeregistreerdeOrganisatieClassificatieCode ;
-  skos:topConceptOf	ns2:GeregistreerdeOrganisatieClassificatieCode .
-<http://data.vlaanderen.be/id/concept/GeregistreerdeOrganisatieClassificatieCode/35833ba2-7371-400b-8df2-2912f66fb153>
-  rdf:type	skos:Concept ;
-  skos:definition	"Een openbaar centrum voor maatschappelijk welzijn (OCMW) kan, in welbepaalde gevallen, om sociale doeleinden te vervullen een vzw oprichten. Een OCMW kan onder dezelfde voorwaarden toetreden tot een bestaande vzw of vso. De vzw of vso neemt dan de vorm aan van een vereniging of vennootschap voor sociale dienstverlening (VVSD)." ;
-  skos:prefLabel	"Vereniging of vennootschap voor sociale dienstverlening" ;
-  skos:inScheme	ns2:GeregistreerdeOrganisatieClassificatieCode ;
-  skos:topConceptOf	ns2:GeregistreerdeOrganisatieClassificatieCode .
-<http://data.vlaanderen.be/id/concept/GeregistreerdeOrganisatieClassificatieCode/82250452-83a0-48f4-89cc-b430320493ce>
-  rdf:type	skos:Concept ;
-  skos:definition	"Een ziekenhuisvereniging is een vereniging voor maatschappelijk welzijn met een privaatrechtelijk statuut. Het is een vzw die verantwoordelijk is voor de gehele of gedeeltelijke exploitatie van een ziekenhuis of ziekenhuisgebonden activiteiten.\u200B\u200B\u200B\u200B\u200B" ;
-  skos:prefLabel	"Ziekenhuisvereniging" ;
-  skos:inScheme	ns2:GeregistreerdeOrganisatieClassificatieCode ;
-  skos:topConceptOf	ns2:GeregistreerdeOrganisatieClassificatieCode .
-<http://data.vlaanderen.be/id/concept/GeregistreerdeOrganisatieClassificatieCode/3e5c8e30-95a7-47b0-b0a4-210d5bd440a7>
-  rdf:type	skos:Concept ;
-  skos:definition	"Een Organisatie die een onbaatzuchtig doel nastreeft." ;
-  skos:prefLabel	"Vereniging" ;
-  skos:inScheme	ns2:GeregistreerdeOrganisatieClassificatieCode ;
-  skos:topConceptOf	ns2:GeregistreerdeOrganisatieClassificatieCode .
-ns3:b9ed22af-3661-4c3e-b07f-b641d80ebf61
-  rdf:type	skos:Concept ;
-  skos:definition	"Als vennootschap, ook wel als onderneming \u2018met rechtspersoonlijkheid\u2019 genoemd. Een onderneming met rechtspersoonlijkheid staat (juridisch gezien) volledig op zichzelf, met eigen rechten, verplichtingen en een eigen vermogen dat gescheiden is van dat van de vennoten." ;
-  skos:prefLabel	"Vennootschap" ;
-  skos:inScheme	ns2:GeregistreerdeOrganisatieClassificatieCode ;
-  skos:topConceptOf	ns2:GeregistreerdeOrganisatieClassificatieCode .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns2: <http://mu.semte.ch/vocabularies/core/> .
