@@ -1133,6 +1133,17 @@ ns4:b213c870-c762-4e39-9f78-3abdeda4b64a
   skos:topConceptOf ns3:BestuursfunctieCode ;
   skos:inScheme ns3:BestuursfunctieCode .
 
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/9210094bcdeb4fc8aabd458fe5a1d711>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Politieraadslid" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/00801a4ba8104832a8430f014be9172f>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Voorzitter van de politieraad" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns2: <http://mu.semte.ch/vocabularies/core/> .
@@ -1294,12 +1305,12 @@ ns4:e14fe683-e061-44a2-b7c8-e10cab4e6ed9
   skos:prefLabel "Collegelid" ;
   skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
   skos:inScheme ns3:BestuursorgaanClassificatieCode .
-<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/04f65457bf125b2dc59fd71917ac3d08> 
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/04f65457bf125b2dc59fd71917ac3d08>
   rdf:type skos:Concept ;
   skos:prefLabel "Kerkraad" ;
   skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
   skos:inScheme ns3:BestuursorgaanClassificatieCode .
-<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/0d985699479162198b889f10e4f1a8ce> 
+<http://data.vlaanderen.be/id/concept/BestuursorgaanClassificatieCode/0d985699479162198b889f10e4f1a8ce>
   rdf:type skos:Concept ;
   skos:prefLabel "Centraal kerkbestuur" ;
   skos:topConceptOf ns3:BestuursorgaanClassificatieCode ;
