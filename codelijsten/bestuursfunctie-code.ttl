@@ -248,3 +248,13 @@ ns4:b213c870-c762-4e39-9f78-3abdeda4b64a
   skos:topConceptOf ns3:BestuursfunctieCode ;
   skos:inScheme ns3:BestuursfunctieCode .
 
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/9210094bcdeb4fc8aabd458fe5a1d711>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Politieraadslid" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
+<http://data.vlaanderen.be/id/concept/BestuursfunctieCode/00801a4ba8104832a8430f014be9172f>
+  rdf:type skos:Concept ;
+  skos:prefLabel "Voorzitter van de politieraad" ;
+  skos:topConceptOf ns3:BestuursfunctieCode ;
+  skos:inScheme ns3:BestuursfunctieCode .
