@@ -6,7 +6,7 @@
   "template": "besluit-publicatie-ap.j2",
   "title": "Besluit Publicatie",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "12-03-2025",
+  "publication-date": "10-07-2025",
   "erkenning-date": "20-07-2018",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Besluit",
