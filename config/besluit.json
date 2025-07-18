@@ -6,7 +6,7 @@
   "template": "besluit-voc.j2",
   "title": "Besluit",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
-  "publication-date": "20-07-2018",
+  "publication-date": "18-07-2025",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Besluit",
   "site": "site-skeleton/besluit-voc",
