@@ -38,7 +38,7 @@ jobs:
           workdir: /tmp/OSLO-codelistgenerated
           command: |
             git fetch origin
-            git checkout -b "lokalebesluiten-${CIRCLE_BRANCH}" --track "origin/lokalebesluiten-${CIRCLE_BRANCH}"
+            git checkout -b "lokalebesluiten-${CIRCLE_BRANCH}" --track "origin/lokalebesluiten-${CIRCLE_BRANCH}" || git checkout "lokalebesluiten-${CIRCLE_BRANCH}"
       - run:
           name: Copy assets
           workdir: /tmp/workspace
