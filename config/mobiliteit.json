@@ -1,0 +1,15 @@
+[{
+  "name": "mobiliteit",
+  "type": "voc",
+  "diagram": "OSLO-Mobiliteit_applicatieprofiel_besluit_mobiliteit",
+  "template": "besluit-voc.j2",
+  "title": "Mobiliteit",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "publication-date": "11-11-2025",
+  "erkenning-date": "niet-bepaald",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "Besluit",
+  "site": "site-skeleton/besluit-voc",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-besluit-mobiliteit/"
+}]
