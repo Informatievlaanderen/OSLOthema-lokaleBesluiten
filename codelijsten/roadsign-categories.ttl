@@ -5,60 +5,48 @@
 
 <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/2982567006d9e19f04063df73123f56f40e3a28941031a7ba6e6667f64740fa9>	rdf:type	mobiliteit:Verkeersbordcategorie ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
-	mu:uuid	"2982567006d9e19f04063df73123f56f40e3a28941031a7ba6e6667f64740fa9" ;
 	skos:prefLabel	"Gevaarsbord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/29ea3335e357e414d07229242607b352941c0c21e78760600cc0f5270f18c38b>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"29ea3335e357e414d07229242607b352941c0c21e78760600cc0f5270f18c38b" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"StilstaanParkeerBord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/737da5751bc7f311398a834f34df310dd95255a0b62afa2db2882c72d54b47d2>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"737da5751bc7f311398a834f34df310dd95255a0b62afa2db2882c72d54b47d2" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"Voorrangsbord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/86a67f3cba6512ae10c4b9b09ba35d8c80109189b44d37e848858af9efb37019>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"86a67f3cba6512ae10c4b9b09ba35d8c80109189b44d37e848858af9efb37019" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"ZoneBord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/955a9adc73d076a2a424754cd540b73da8d15fb002ab6c9f115d080edddb57e8>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"955a9adc73d076a2a424754cd540b73da8d15fb002ab6c9f115d080edddb57e8" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"Verbodsbord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/991b04b477b77bc7cf1414fb5d255cc4435dd9c1681e8de66f770710c1c83ad0>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"991b04b477b77bc7cf1414fb5d255cc4435dd9c1681e8de66f770710c1c83ad0" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"Onderbord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/9d84069e70f192b7a474d02f07687bc3343ee324207ad9e093c0b2f5def647f8>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"9d84069e70f192b7a474d02f07687bc3343ee324207ad9e093c0b2f5def647f8" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"Gebodsbord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/9ea8f8b421343370d20a8bd45d6226aadc48125bda8ddbbeeb53d99f181ee05a>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"9ea8f8b421343370d20a8bd45d6226aadc48125bda8ddbbeeb53d99f181ee05a" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"AanwijsBord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <https://data.vlaanderen.be/id/concept/Verkeersbordcategorie/ae1b7231-1f31-492d-947a-25fc5d114492>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"ae1b7231-1f31-492d-947a-25fc5d114492" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"XXbord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <https://data.vlaanderen.be/id/concept/Verkeersbordcategorie/8e302648-0eca-478b-8b48-67c3b0e39c0a>	rdf:type	mobiliteit:Verkeersbordcategorie ;
-	mu:uuid	"8e302648-0eca-478b-8b48-67c3b0e39c0a" ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
 	skos:prefLabel	"XX-AWVbord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/concept/Verkeersbordcategorie/96c6bc79-6857-4959-acf4-4b08374bcb9c>	rdf:type	mobiliteit:Verkeersbordcategorie ;
 	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
-	mu:uuid	"96c6bc79-6857-4959-acf4-4b08374bcb9c" ;
 	skos:prefLabel	"Afbakeningsbord" ;
 	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .
 <http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie>	rdf:type	skos:ConceptScheme ;
-    mu:uuid	"b2ade545430e67960c8a90ac47b815e0bd7a62537828785320d1b35e399d42e4" ;
 	skos:note	"Categorie van een verkeersbord" ;
 	skos:prefLabel	"Verkeersbordcategorie" .    
