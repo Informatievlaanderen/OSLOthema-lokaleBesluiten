@@ -1,4 +1,26 @@
-# 12-03-2025
+# 2025-12-06
+## Aanpassingen aan besluit/besluit-mobiliteit
+
+### Verwijderde klassen
+De volgende klassen werden gedefinieerd in https://data.vlaanderen.be/doc/applicatieprofiel/inname-openbaar-domein/ en worden op dit moment niet gebruikt binnen besluit-mobiliteit.
+- Inname
+- Inname vergunning
+- Mobiliteitshinder
+- Mobiliteitshindergevolg
+- Omleiding
+- Signalisatievergunning
+
+Volgende klassen werden verwijderd omdat ze niet gebruikt worden in het kader van het AP besluit-mobiliteit
+- https://data.vlaanderen.be/ns/weg/#TransportLinkSet
+- http://data.vlaanderen.be/ns/besluit/#Vergunning
+- http://data.vlaanderen.be/ns/besluit#Voorwaarde
+- https://data.vlaanderen.be/ns/mobiliteit#Verkeersmaatregel
+
+### Toegevoegde klassen
+
+### Andere Wijzigingen
+
+# 2025-03-12
   - start wijziging voor toolchain 4 processing
   - tag rollout-toolchain4 om de laatste commit aan te duiden voor de rollout van toolchain4
 
