@@ -17,6 +17,30 @@ Volgende klassen werden verwijderd omdat ze niet gebruikt worden in het kader va
 - https://data.vlaanderen.be/ns/mobiliteit#Verkeersmaatregel
 
 ### Toegevoegde klassen
+Klassen voor het capteren van de ontwerpfase in de signalisatie tool:
+- Aanvullend reglement ontwerp
+- Bevat Maatregel Ontwerp
+- Bevat Verkeersteken
+- Heeft Betrokkene
+- Heeft Ontwerp
+- MobiliteitsmaatregelOntwerp
+- Ontwerp voor verkeersteken
+- Relatieobject
+- Signalisatie ontwerp
+
+Specialisaties van bestaande klassen:
+- Verkeersteken: Verkeerslicht verkeersteken,  Verkeersbord-verkeersteken, Wegmarkering verkeersteken 
+- VerkeerstekenConcept : Verkeerslichtconcept,  Verkeersbordconcept,  Wegmarkeringsconcept
+
+Uitbreidingen van de informatie in het register:
+- Codelijst + Codelijst type
+- Concept
+- Mobiliteitsmaatregelconcept
+- Pictogram
+- Standaardeenheid
+- Template
+- Verkeerstekenconcept Status
+- Vorm 
 
 ### Andere Wijzigingen
 
