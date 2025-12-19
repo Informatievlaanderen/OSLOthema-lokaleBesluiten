@@ -1,0 +1,2709 @@
+{
+  "@context": {
+    "oslo": "https://implementatie.data.vlaanderen.be/ns/oslo-toolchain#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "rec": "http://www.w3.org/2001/02pd/rec54#",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "packages": "@included",
+    "classes": "@included",
+    "datatypes": "@included",
+    "attributes": "@included",
+    "referencedEntities": "@included",
+    "baseURI": {
+      "@id": "oslo:baseURI",
+      "@type": "@id"
+    },
+    "vocDefinition": {
+      "@id": "oslo:vocDefinition",
+      "@container": "@set"
+    },
+    "apDefinition": {
+      "@id": "oslo:apDefinition",
+      "@container": "@set"
+    },
+    "vocLabel": {
+      "@id": "oslo:vocLabel",
+      "@container": "@set"
+    },
+    "apLabel": {
+      "@id": "oslo:apLabel",
+      "@container": "@set"
+    },
+    "diagramLabel": {
+      "@id": "oslo:diagramLabel"
+    },
+    "scope": {
+      "@id": "oslo:scope"
+    },
+    "vocUsageNote": {
+      "@id": "oslo:vocUsageNote",
+      "@container": "@set"
+    },
+    "apUsageNote": {
+      "@id": "oslo:apUsageNote",
+      "@container": "@set"
+    },
+    "domain": {
+      "@id": "rdfs:domain",
+      "@container": "@set"
+    },
+    "range": {
+      "@id": "rdfs:range"
+    },
+    "minCount": {
+      "@id": "sh:minCount"
+    },
+    "maxCount": {
+      "@id": "sh:maxCount"
+    },
+    "parent": {
+      "@id": "rdfs:subClassOf",
+      "@type": "owl:Class"
+    },
+    "generatedAtTime": {
+      "@id": "prov:generatedAtTime"
+    },
+    "Package": "oslo:Package",
+    "Class": {
+      "@id": "owl:Class"
+    },
+    "DatatypeProperty": {
+      "@id": "owl:DatatypeProperty"
+    },
+    "ObjectProperty": {
+      "@id": "owl:ObjectProperty"
+    },
+    "authors": {
+      "@type": "foaf:Person",
+      "@id": "foaf:maker"
+    },
+    "editors": {
+      "@type": "foaf:Person",
+      "@id": "rec:editor"
+    },
+    "contributors": {
+      "@type": "foaf:Person",
+      "@id": "dcterms:contributor"
+    },
+    "affiliation": {
+      "@id": "http://schema.org/affiliation"
+    },
+    "assignedURI": {
+      "@id": "oslo:assignedURI",
+      "@type": "@id"
+    },
+    "Datatype": {
+      "@id": "rdfs:Datatype"
+    },
+    "codelist": {
+      "@id": "oslo:codelist",
+      "@type": "@id"
+    }
+  },
+  "@id": "https://data.vlaanderen.be/test/1",
+  "generatedAtTime": "2024-06-26T09:49:38.045Z",
+  "packages": [
+    {
+      "@id": "urn:oslo-toolchain:1170caa5da8d0d9235053688a1b6bd86ead74616e6d78b942cec6ff8f62d636a",
+      "@type": "Package",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat",
+      "baseURI": "http://data.vlaanderen.be/ns/mandaat#"
+    }
+  ],
+  "classes": [
+    {
+      "@id": "urn:oslo-toolchain:6912072efa5459f551b778b348bb161440dff9bbc733b8642e84be94335f63cc",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/besluit#Bestuursorgaan",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Governing Body"
+        },
+        {
+          "@language": "nl",
+          "@value": "Bestuursorgaan"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bestuursorgaan"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "A formal body of a legal entity authorized to conduct legal acts."
+        },
+        {
+          "@language": "nl",
+          "@value": "Een formeel orgaan van een rechtspersoon dat bevoegd is om rechtshandelingen te stellen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:ea84420356a0a71c09e29034b043e9a6c87ecf0e09cfaf367772f5002c17cbc3"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:b7b24dc7f6b160c76715bcf4fe50bcb92d84b7ab6978a8d04a433f05ea20f793",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Administrative Unit"
+        },
+        {
+          "@language": "nl",
+          "@value": "Bestuurseenheid"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bestuurseenheid"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Public, governing organization associated with a territorially defined area and with certain domains in which it can govern."
+        },
+        {
+          "@language": "nl",
+          "@value": "Publieke, bestuurlijke organisatie verbonden aan een territoriaal omschreven gebied met bepaalde verantwoordelijkheden waarbinnen het bestuurshandelingen kan stellen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:6e09ec80c21123f03391b9e9f0b97cbe8c4d73b29be4a04ac5f815ecac5d96a6"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:8fdbf62f9eae0095bfaef210f1291f9b1d0d945fc225b25f1f35ef012092e53c",
+      "@type": "Class",
+      "assignedURI": "https://data.vlaanderen.be/ns/generiek#VersieVolgensGeldigeTijd",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Versie volgens Geldige Tijd"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "VersieVolgensGeldigeTijd"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De versie stelt de entiteit voor gedurende een bepaalde periode in de gemodelleerde werkelijkheid."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7520ce396a1453319bc03511d6b9ea6df03d76027e9d2d71a37041cf1cfb9673"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:7520ce396a1453319bc03511d6b9ea6df03d76027e9d2d71a37041cf1cfb9673",
+      "@type": "Class",
+      "assignedURI": "https://data.vlaanderen.be/ns/generiek#Versie",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Versie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Versie"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Stelt een entiteit voor in één specifieke periode."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:377abf1def3062b30c3501afd54eed98d9f1f198b87dcfeb380daac0ffb98020"
+        },
+        {
+          "@id": "http://www.w3.org/ns/prov#Entity"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:377abf1def3062b30c3501afd54eed98d9f1f198b87dcfeb380daac0ffb98020",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/ns/prov#Entity",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Entiteit"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Object"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:62ba1b48ffb824bd0d321cd750776e6a5df057af26be9e086dff39d9f2a9c78c",
+      "@type": "Class",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#Geboorte",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Geboorte"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Geboorte"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het ter wereld komen vd persoon."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": ""
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:c0f25d8c9350f86ae5c52de02437cb27283b258dee3f098578afedf95a84a228"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/ns/person#Person",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Persoon"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Persoon"
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "NOTE"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:377abf1def3062b30c3501afd54eed98d9f1f198b87dcfeb380daac0ffb98020"
+        },
+        {
+          "@id": "urn:oslo-toolchain:566e9afb6c4eee00f457c9ed08ccf8bd9f11dffcb8076cf22b0e59017f59f1e3"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2",
+      "@type": "Class",
+      "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Rechtsgrond"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Rechtsgrond"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een legaal concept dat los staat van een bepaalde vorm (het achterliggende idee)."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Een rechtsgrond kan zowel een geheel (bvb: wet, besluit) voorstellen als een onderdeel eruit (bvb: artikel)."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:ce70e79672fe4729cb441cf846c18ad16b157c18b76b3207f584e2dde5eb2cf8"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:a998c1f53c38a47df26ecd4cc05f025207f31150a545d4fe39bd98048e8cd57e",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#Fractie",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Parliamentary Group"
+        },
+        {
+          "@language": "nl",
+          "@value": "Fractie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Fractie"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "NOTE"
+        },
+        {
+          "@language": "en",
+          "@value": "NOTE"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:ea84420356a0a71c09e29034b043e9a6c87ecf0e09cfaf367772f5002c17cbc3"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:b9a4474c2837d4e4f66352e5689010f0063ab9238c428e03646189e13f9220a0",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#Kandidatenlijst",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Candidate List"
+        },
+        {
+          "@language": "nl",
+          "@value": "Kandidatenlijst"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Kandidatenlijst"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "List with candidates for an election."
+        },
+        {
+          "@language": "nl",
+          "@value": "Lijst met kandidaten voor een verkiezing."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:d0fa1146e64d7eae36650121bcc856523515a1e9441c918b2e034b29ca88b081",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#Mandataris",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Mandatary"
+        },
+        {
+          "@language": "nl",
+          "@value": "Mandataris"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Mandataris"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "A person in his role as holder of a mandate."
+        },
+        {
+          "@language": "nl",
+          "@value": "Een persoon in zijn rol als houder van een mandaat."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:566e9afb6c4eee00f457c9ed08ccf8bd9f11dffcb8076cf22b0e59017f59f1e3"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:1c230e7e86f08995eaa890a58bd3f089aacb3cfbd3bb0857e074aaebf731a7ec",
+      "@type": "Class",
+      "assignedURI": "http://www.w3.org/ns/org#Membership",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Lidmaatschap"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Lidmaatschap"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geeft de kenmerken weer vh lidmaatschap van een Mandataris van een Fractie."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:d2b14228000476f410b6dfb072bb99f2590ae7dda8f6e5ac53efc94b1105e239",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#RechtsgrondBeeindiging",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Legal Resource Dismissal"
+        },
+        {
+          "@language": "nl",
+          "@value": "Rechtsgrond Beëindiging"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "RechtsgrondBeeindiging"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The regulations, legal act and/or policy choice which (temporarily) dismisses one or more mandates of a person starting from a specific date."
+        },
+        {
+          "@language": "nl",
+          "@value": "De regelgeving, rechtshandeling en/of beleidskeuze waardoor de invulling van één of meerdere mandaten door een persoon vanaf een bepaalde datum (tijdelijk) beëindigd wordt."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+        },
+        {
+          "@id": "urn:oslo-toolchain:cfdf200fa1f0e971f824a1d49caef84b785ecc795d0e1b97c61a6503eed35b34"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:9e885eedf434f0694d93f0d9b889ddd9095bc7d01a8d30e933c2724f4e68296f",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#RechtstreekseVerkiezing",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Direct Election"
+        },
+        {
+          "@language": "nl",
+          "@value": "Rechtstreekse Verkiezing"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "RechtstreekseVerkiezing"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The execution of a formal procedure whereby voting citizens determines which person can be assigned a mandate."
+        },
+        {
+          "@language": "nl",
+          "@value": "De uitvoering van een formele procedure waarbij stemgerechtigde burgers bepalen aan welke persoon een mandaat kan worden toegekend."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:7b835f57129688659a8d5a8d7d003f5ae4fad3b8edbfcaacbb8eee51fea3b3ae"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:70965c61204192b8eba45ef47146c37286fcfa60fbef0af49cc50c74099ce51e",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#Verkiezingsresultaat",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Election Result"
+        },
+        {
+          "@language": "nl",
+          "@value": "Verkiezingsresultaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Verkiezingsresultaat"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Individual election result of a candidate."
+        },
+        {
+          "@language": "nl",
+          "@value": "Individuele verkiezingsuitslag van een kandidaat."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1402de622bf0e4ebd6aa0c3185a87a7e9e16871346f7c0a19d2413c10118930b",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#RechtsgrondAanstelling",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "Legal Resource Appointment"
+        },
+        {
+          "@language": "nl",
+          "@value": "Rechtsgrond Aanstelling"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "RechtsgrondAanstelling"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The regulations, legal act and/or policy choice which (temporarily) appoints one or more mandates to a person starting from a specific date."
+        },
+        {
+          "@language": "nl",
+          "@value": "De regelgeving, rechtshandeling en/of beleidskeuze waardoor de invulling van een of meerdere mandaten door een persoon vanaf een bepaalde datum (tijdelijk) start."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+        },
+        {
+          "@id": "urn:oslo-toolchain:cfdf200fa1f0e971f824a1d49caef84b785ecc795d0e1b97c61a6503eed35b34"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:becf312541c6497c74bafb6424c8084c176da6657a7270eaae2c9580cfdf9383",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/besluit#Bestuursorgaan",
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Bestuursorgaan (in bestuursperiode)"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Bestuursorgaan (in bestuursperiode)"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een bestuursorgaan, beperkt tot een bepaalde bestuursperiode."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:8fdbf62f9eae0095bfaef210f1291f9b1d0d945fc225b25f1f35ef012092e53c"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:d03e92973c17436638d5d47999360ae5569326a63f95c3805775962c58800f04",
+      "@type": "Class",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#Mandaat",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "mandate"
+        },
+        {
+          "@language": "nl",
+          "@value": "Mandaat"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Mandaat"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "The power to form or join a governing body for a certain period of time. A mandate may represent one or more seats."
+        },
+        {
+          "@language": "nl",
+          "@value": "De bevoegdheid om gedurende een bepaalde periode een bestuursorgaan te vormen of er deel van uit te maken. Een mandaat kan één of meerdere zetels voorstellen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage",
+      "parent": [
+        {
+          "@id": "urn:oslo-toolchain:64f8693605cd1d44fc90c9fc4b2bf4a4c087af7445d712f59330e72f597c2642"
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "@id": "urn:oslo-toolchain:ad01bd58a48ffbadba2e6251db334d31c33253b0874f5ed4e12337f515ec1f19",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "naam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "naam"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Naam van de eenheid."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:6912072efa5459f551b778b348bb161440dff9bbc733b8642e84be94335f63cc"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5dd51c5c32cfae06f11f18ec822ddad58ae603cfe06da726c96248c87b5cae8a"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5d2fe79246ed157de33bafde5d9376be8dfc5b7fd74ce959d91eb1fb65637aad",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "voorkeurslabel"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "naam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "naam"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Naam van de bestuurseenheid."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b7b24dc7f6b160c76715bcf4fe50bcb92d84b7ab6978a8d04a433f05ea20f793"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5dd51c5c32cfae06f11f18ec822ddad58ae603cfe06da726c96248c87b5cae8a"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:38a86efe2e8c747f1bbae99b062cafb1db518a9e920d99849194884bd21952d6",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "familienaam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "achternaam"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:f94382282bdd8dbb65a030965897b0f5fa1de8dd04e0091233afcdfc85e6f24f",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#alternatieveNaam",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "alternatieve naam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "alternatieveNaam"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Alternatief voor de volledige naam vd persoon."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "parent": {
+        "@id": "http://xmlns.com/foaf/0.1/name"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:eeeeabb02426665231d0dba5123c99bc095ca06091b327a8d1d8b774de26ba1a",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.w3.org/ns/person#birthName",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geboortenaam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geboortenaam"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:7a67fc157818394b484064de8cc58f58ace7e665f086fc0871d0dc7953064a7d",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "gebruikte voornaam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "gebruikteVoornaam"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Belangrijkste vd voornamen ve persoon."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": ""
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "parent": {
+        "@id": "http://xmlns.com/foaf/0.1/givenName"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ad8ee0bbc703a9a221cf695305b03215dd240a193b59fbbb75d4412f668f0293",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.w3.org/ns/person#patronymicName",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "patroniem"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "patroniem"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:37a7da4ce78221aee3cbf08144b5c25a82437aa3b518b99488d95d64d7c0c3df",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "volledige naam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "volledigeNaam"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De volledige naam vd persoon, doorgaans de combinatie van voornamen en achternaam."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": ""
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "parent": {
+        "@id": "http://xmlns.com/foaf/0.1/name"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a8985c3c56b7e0982b5e5c1df3ff10fe7ec5a160daa62b5f0a3bbe8f604419b4",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "gegeven naam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "voornaam"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1066ea1ff6e5d2fc7d5b0d92641f87d1b09d4876cbbe756e69e7946eefa24616",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.europa.eu/eli/ontology#date_no_longer_in_force",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "datum buitenwerkingtreding"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "buitenwerkingtreding"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "buitenwerkingtreding"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De laatste dag waarop de regelgeving nog van kracht is."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:474715019"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e068739c8f078ac4474a2a250752112ff0f23ec9abec68ba86482da28d8dd53d",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.europa.eu/eli/ontology#first_date_entry_in_force",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "datum inwerkingtreding"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "inwerkingtreding"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "inwerkingtreding"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De datum waarop de regelgeving van kracht wordt."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Dit is niet hetzelfde als wanneer de regelgeving toepasbaar (in de praktijk uitvoerbaar) wordt. De toepasbaarheid van de regelgeving kan op of na de inwerkingtreding liggen."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:474715019"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:18512f997ca16ca3c58bb523c0a26a01ca88fb162d3aeda682fcd5076861c05d",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.w3.org/ns/regorg#legalName",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "wettelijke naam"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "naam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "naam"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De formele naam van de fractie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:a998c1f53c38a47df26ecd4cc05f025207f31150a545d4fe39bd98048e8cd57e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5dd51c5c32cfae06f11f18ec822ddad58ae603cfe06da726c96248c87b5cae8a"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b2d631ae7d2e6ed76b7e9cfce4e98b1c477f5e884dadb6e74362db12eaf774e2",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "voorkeursnaam"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "lijstnaam"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "lijstnaam"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De naam van de lijst onder dewelke de kandidaten gezamenlijk opkomen."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b9a4474c2837d4e4f66352e5689010f0063ab9238c428e03646189e13f9220a0"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:487667944"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ddb00a458fef54287d342b7a30009b7a779f05dcdb182aa138a471f055aed5c6",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#lijstnummer",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "lijstnummer"
+        },
+        {
+          "@language": "en",
+          "@value": "list number"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "lijstnummer"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het volgnummer van de lijst."
+        },
+        {
+          "@language": "en",
+          "@value": "The index number of the list."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b9a4474c2837d4e4f66352e5689010f0063ab9238c428e03646189e13f9220a0"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:1607006999"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:23b37b898d932ccf5d88e12dbaecee3622707fa8bbaff711e74f744ea12428ec",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#einde",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "einde"
+        },
+        {
+          "@language": "en",
+          "@value": "end"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "einde"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Tijdstip vanaf wanneer de mandataris het mandaat niet langer opneemt."
+        },
+        {
+          "@language": "en",
+          "@value": "Time when the appointment of the mandate stops."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d0fa1146e64d7eae36650121bcc856523515a1e9441c918b2e034b29ca88b081"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:499715870"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:9ef9130f009f0b3592a60ffa4bf6468dbdc148780172a5ebf014c64618608d57",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#rangorde",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "rangorde"
+        },
+        {
+          "@language": "en",
+          "@value": "ranking"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "rangorde"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Indicates the location of the mandatary in the formally determined order of mandataries within the governing body in which the mandatary is located."
+        },
+        {
+          "@language": "nl",
+          "@value": "Duidt de plaats van de mandataris aan in de formeel vastgelegde volgorde van de mandatarissen binnen het bestuursorgaan waar de mandataris in zetelt."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d0fa1146e64d7eae36650121bcc856523515a1e9441c918b2e034b29ca88b081"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:1cc0217f7e8851eea25c8dffe1ccd59c45f12c5ae50b140332d097ca07954734"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e3f5dae52d67df3817ca8f34061fdf799449965aa511e7ace2d754ed110aefdf",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#start",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "start"
+        },
+        {
+          "@language": "en",
+          "@value": "start"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "start"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Tijdstip vanaf wanneer de mandataris het mandaat opneemt."
+        },
+        {
+          "@language": "en",
+          "@value": "Time when the appointment of the mandate starts."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d0fa1146e64d7eae36650121bcc856523515a1e9441c918b2e034b29ca88b081"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:499715870"
+      },
+      "parent": {
+        "@id": "http://data.vlaanderen.be/ns/mandaat#specialisatieStart"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:2c8cd08c549e7bc9bfe68ab20a3ea66563de819b8b0597ae93957fd3835617ec",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#datum",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "datum"
+        },
+        {
+          "@language": "en",
+          "@value": "date"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "datum"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Datum waarop de verkiezing plaatsvond."
+        },
+        {
+          "@language": "en",
+          "@value": "Date on which the election took place."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:9e885eedf434f0694d93f0d9b889ddd9095bc7d01a8d30e933c2724f4e68296f"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:474715019"
+      },
+      "parent": {
+        "@id": "http://purl.org/dc/terms/date"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b6756ed46f809eaa18fb359278fc0d9b81cc5e72922ae20a2d642d09d4d0947e",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://purl.org/dc/terms/valid",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geldig"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "geldigheid"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geldigheid"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Datum waarop de verkiezing geldig verklaard werd."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:9e885eedf434f0694d93f0d9b889ddd9095bc7d01a8d30e933c2724f4e68296f"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:474715019"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5211f409d685ffd6e7c0558057777d8b140bbc3fcc42fda3c80d3a902f367ce9",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#aantalNaamstemmen",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "aantal naamstemmen"
+        },
+        {
+          "@language": "en",
+          "@value": "number of preference votes"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "aantalNaamstemmen"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het aantal stemmen dat is uitgebracht op de kandidaat bij de verkiezing, zonder de lijststemmen in rekening te brengen."
+        },
+        {
+          "@language": "en",
+          "@value": "The number of preferential votes for the candidate in the election, without taking list votes into account."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:70965c61204192b8eba45ef47146c37286fcfa60fbef0af49cc50c74099ce51e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:1607006999"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:307d998100c07b5ff238ad0038753e797abfb738700a1f7217f01108da7c3192",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#plaatsRangorde",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "ranking"
+        },
+        {
+          "@language": "nl",
+          "@value": "plaats rangorde"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "plaatsRangorde"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De positie in de volgorde op de lijst van effectief verkozenen of op de lijst van opvolgers, op basis van het aantal naamstemmen van de kandidaat plus het aantal overgedragen lijststemmen."
+        },
+        {
+          "@language": "en",
+          "@value": "The position in the list of effective elected or in the list of successors, based on the number of preferential votes of the candidate and the number of transferred list votes."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:70965c61204192b8eba45ef47146c37286fcfa60fbef0af49cc50c74099ce51e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:1607006999"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:cb8d530d43621a0c8b00249ca2efa7b08baac221f5aa2755181bd41d2aa8cb8d",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#aantalHouders",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "number of holders"
+        },
+        {
+          "@language": "nl",
+          "@value": "aantal houders"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "aantalHouders"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "en",
+          "@value": "Maximum number of agents that can hold this post at the same time."
+        },
+        {
+          "@language": "nl",
+          "@value": "Maximale aantal agents die tegelijk deze positie kunnen invullen."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d03e92973c17436638d5d47999360ae5569326a63f95c3805775962c58800f04"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:1607006999"
+      },
+      "parent": {
+        "@id": "https://data.vlaanderen.be/ns/organisatie#aantalHouders"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:98f61206dfef8af9c64358e33ddb83b5ee08dde2eff66c79e4e955b24965aa6e",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/org#classification",
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "classificatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "classificatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het type bestuursorgaan."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:6912072efa5459f551b778b348bb161440dff9bbc733b8642e84be94335f63cc"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e69bb238816c573866c295c789bf85e7bbd085292a28895e6c8726225dd8fca4"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:941cc7fa756c1e855cb6b2a21a25499181344b019f44cc4e61b55c63a8c9eb6a",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/org#classification",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "classificatie"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "classificatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "classificatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Classificatie van de bestuurseenheid."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b7b24dc7f6b160c76715bcf4fe50bcb92d84b7ab6978a8d04a433f05ea20f793"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e69bb238816c573866c295c789bf85e7bbd085292a28895e6c8726225dd8fca4"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1311cc0e1fea01d3a6e7e7f1e0d2121bb281a6712502934677e00cf048fe8e53",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/besluit#werkingsgebied",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "werkingsgebied"
+        },
+        {
+          "@language": "en",
+          "@value": "governance area"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "werkingsgebied"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Geografische gebied waarbinnen de bestuurseenheid bepaalde verantwoordelijkheden heeft waarbinnen het bestuurshandelingen kan stellen."
+        },
+        {
+          "@language": "en",
+          "@value": "Geographical area where the administrative unit has certain responsibilities in which it can perform acts of governance."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b7b24dc7f6b160c76715bcf4fe50bcb92d84b7ab6978a8d04a433f05ea20f793"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:679d8c58497c20d337783493234ef974083b7202f9067f14c9e10e8c6aadbafe"
+      },
+      "parent": {
+        "@id": "http://purl.org/dc/terms/spatial"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:4512f5e7f71507aae19e551e9d97811e4d68ce04f182bcd057397295a275ee9e",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/adms#identifier",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "identificator"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "identificator"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "identificator"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:377abf1def3062b30c3501afd54eed98d9f1f198b87dcfeb380daac0ffb98020"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:ecc6b4e637f8f807e6ea422391f1406a92bbc43ed3955a94aa1ba634c49a7c74"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e3e9a3f77b3b67e2561ec1766d6c847e8c9e77fb4fdf1cd095d32fb1dd4ee8a9",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/prov#qualifiedGeneration",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "gekwalificeerde creatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "creatie"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7520ce396a1453319bc03511d6b9ea6df03d76027e9d2d71a37041cf1cfb9673"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:b3b507b9715a1e84a5d1cbaa2d213ad4033bef1ec8d361336ff5e492c232aba8"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:00ce689517a0791243e0e5a17d5414037eb2305d0f7735462ef07d8acbcd480e",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/prov#qualifiedInvalidation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "gekwalificeerde opheffing"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "opheffing"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:7520ce396a1453319bc03511d6b9ea6df03d76027e9d2d71a37041cf1cfb9673"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:ea7f25b608970cec29ee66229292651b2c63f1abf355505d5a5ce4bfbd67ec9c"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:522e8abcc0662e89c7305b3d4b39b0fbd8ecc1962b0c1fb6cba249b406392efc",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://schema.org/contactPoint",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "contactpunt"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "contactinfo"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Informatie zoals email, telefoon… die toelaat de Persoon te contacteren."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:c2fffd3e85a88ee6949e408e0152a13cf4e9ffa8096c1146535b1f82add6f3d0"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:108ccec457e9853105edd815ea39ebbe431ac7b8aec554377363287347969993",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "geslacht"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "geslacht"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het feit of de persoon een man of een vrouw is."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": ""
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:5114c69fde9d957ab682749a3e17c61972189b07eb732f64bdd64814f2623614"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:7fe1cc9ba3a429f8cd2467baf3668509a713d90fd860f43523438a1e9e1c697e",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.europa.eu/eli/ontology#type_document",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "type document"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "typeDocument"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het type van de rechtsgrond."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bijvoorbeeld: reglement, wet, voorstel."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:45f8d716580b8b5bee036cfb00bd661c6ac24cbf0efe15a886444093790f3071"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b89e940b4bebbb9a9f7d025ea83b50cb177b05a6ebafd3e4a7ab045f559757db",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#lijsttype",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "lijsttype"
+        },
+        {
+          "@language": "en",
+          "@value": "list type"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "lijsttype"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het type van de lijst."
+        },
+        {
+          "@language": "en",
+          "@value": "The type of the list."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Bijvoorbeeld: gemeenteraadsverkiezing, effectieven Vlaams Parlement."
+        },
+        {
+          "@language": "en",
+          "@value": "For example: municipal election, parliamentary election."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:b9a4474c2837d4e4f66352e5689010f0063ab9238c428e03646189e13f9220a0"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e69bb238816c573866c295c789bf85e7bbd085292a28895e6c8726225dd8fca4"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ee949d52402da981acb75889fab29b31fc4291aa96baa1993638c4af58810f2b",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#beleidsdomein",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "beleidsdomein"
+        },
+        {
+          "@language": "en",
+          "@value": "policy domain"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "beleidsdomein"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Het thema of beleidsdomein dat toegewezen is aan een mandataris."
+        },
+        {
+          "@language": "en",
+          "@value": "The theme or policy domain assigned to a mandatary."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d0fa1146e64d7eae36650121bcc856523515a1e9441c918b2e034b29ca88b081"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e69bb238816c573866c295c789bf85e7bbd085292a28895e6c8726225dd8fca4"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a2f7256459ba87f0a2a7ca62ece8389146e712b742687e232344f68f7c4368b7",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#status",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "status"
+        },
+        {
+          "@language": "en",
+          "@value": "status"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "status"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De gesteldheid van de mandataris."
+        },
+        {
+          "@language": "en",
+          "@value": "The status of the mandatary."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Voorbeelden: effectief, verhinderd, beëindigd, waarnemend."
+        },
+        {
+          "@language": "en",
+          "@value": "Examples: effective, terminated, acting."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d0fa1146e64d7eae36650121bcc856523515a1e9441c918b2e034b29ca88b081"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e69bb238816c573866c295c789bf85e7bbd085292a28895e6c8726225dd8fca4"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:7b7dfded944fff59511a1df1918451b4b6d7a07d0d3c736a15a186a21ab94c7c",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/org#memberDuring",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "lid gedurende"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "lidVanTot"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Periode waarin de Mandataris lid was vd Fractie."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:1c230e7e86f08995eaa890a58bd3f089aacb3cfbd3bb0857e074aaebf731a7ec"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:04394dd0bdd3bb94a99c502d7556d6422f43ee391e2bf4673789e3f7031db70f"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1c05af150bc492ab40d1f8dc648757d97471294c7ffba46ea5e9bca5a9ea1cba",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#redenVanBeeindiging",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "reden van beëindiging"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "redenVanBeeindiging"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De reden waarom deze rechtsgrond werd beëindigd."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d2b14228000476f410b6dfb072bb99f2590ae7dda8f6e5ac53efc94b1105e239"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e69bb238816c573866c295c789bf85e7bbd085292a28895e6c8726225dd8fca4"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:f8fee55108569d4cc9c2742a019b72c43837bdd859a0ed020cc362bedb7859a0",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#gevolg",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "gevolg"
+        },
+        {
+          "@language": "en",
+          "@value": "consequence"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "gevolg"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Persoonlijk gevolg van de uitslag voor de kandidaat dat vastlegt of de kandidaat al dan niet kan deelnemen aan het bestuursorgaan."
+        },
+        {
+          "@language": "en",
+          "@value": "Personal consequence of the result for the candidate that determines if the candidate may or may not participate in the governing body."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Voorbeelden: niet verkozen, effectief, opvolger."
+        },
+        {
+          "@language": "en",
+          "@value": "Examples: not elected, effectively, successor."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:70965c61204192b8eba45ef47146c37286fcfa60fbef0af49cc50c74099ce51e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e69bb238816c573866c295c789bf85e7bbd085292a28895e6c8726225dd8fca4"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b1251c58a18341bf453727d98429584c76783d3a37ce91f2073b079bc6154d9f",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://www.w3.org/ns/org#role",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "rol"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "bestuursfunctie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "bestuursfunctie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een code die de functie van het mandaat aangeeft."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d03e92973c17436638d5d47999360ae5569326a63f95c3805775962c58800f04"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:e89a89bde93a1569ba3fb082729c2194692218f82834c4d7ff88721564a5a78c"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:8d4c722354b75422d70296f6a2fc9a3eb5f5e4b1bc78612d8554c4c34763c0c8",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.vlaanderen.be/ns/mandaat#isTijdelijkVervangenDoor",
+      "vocLabel": [
+        {
+          "@language": "en",
+          "@value": "temporarily replaced by"
+        },
+        {
+          "@language": "nl",
+          "@value": "is tijdelijk vervangen door"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "isTijdelijkVervangenDoor"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Duidt een mandataris aan die tijdelijk de uitvoering van het mandaat heeft overgenomen."
+        },
+        {
+          "@language": "en",
+          "@value": "A mandatary that has temporarily taken over the execution of the mandate."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "en",
+          "@value": "The period of replacement corresponds to the start and end date of the appointment of the replacing mandatary."
+        },
+        {
+          "@language": "nl",
+          "@value": "De periode van vervanging komt overeen met de start-/einddatum van de opname van het mandaat van de vervanger."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:d0fa1146e64d7eae36650121bcc856523515a1e9441c918b2e034b29ca88b081"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:d0fa1146e64d7eae36650121bcc856523515a1e9441c918b2e034b29ca88b081"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPackage"
+    },
+    {
+      "@id": "urn:oslo-toolchain:81e22489e63b19ac3dd6e519cd26a46a5e4349fbee8f898a61facae33b501a56",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.europa.eu/eli/ontology#is_part_of",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "is deel van"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "isDeelVan"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "De rechtsgrond waar deze rechtsgrond onderdeel van uitmaakt."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5efafc1dc97c165632273274ae5b5bc0a1b9cdb08b07d3a9fd6fe7ff036d876e",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "http://data.europa.eu/eli/ontology#has_part",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "heeft deel"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "heeftDeel"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Duidt een rechtsgrond aan die een (fysiek) onderdeel voorstelt van deze rechtsgrond."
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:8d732d12d2826895a4f59bedf1e4396ce4d4580254033c7091184f98c150fbb2"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:962ccc4216283531944ac749ce7987d1f84a28a1c3ff0cf703cdde196f896920",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "heeft relatie met"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "heeftRelatieMet"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Persoon waarmee de persoon gerelateerd is."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": ""
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:27081bb7b3da2f6b561b893758488e216e5bbcdef794f37c28a2fabe2341f74a",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+      "diagramLabel": [
+        {
+          "@value": "Persoon (source)"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:4e92aa3ce36fc5bbaeae65ffa6e5976f61c3e6be9c3eaadd52090e798d4d4d1c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:a37535ab24182363c3cbf7dc9e1914f30960c9dc5bd41357dfe92517eccdb4ad",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+      "diagramLabel": [
+        {
+          "@value": "Persoon (target)"
+        }
+      ],
+      "domain": {
+        "@id": "urn:oslo-toolchain:4e92aa3ce36fc5bbaeae65ffa6e5976f61c3e6be9c3eaadd52090e798d4d4d1c"
+      },
+      "range": {
+        "@id": "urn:oslo-toolchain:154638b6fab9aa3be774a166d48bf3fae5df65fb1b97aca075a0c852688c090e"
+      },
+      "minCount": "1",
+      "maxCount": "1",
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    }
+  ],
+  "datatypes": [
+    {
+      "@id": "urn:oslo-toolchain:487667944",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+      "diagramLabel": [
+        {
+          "@value": "String"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:474715019",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+      "diagramLabel": [
+        {
+          "@value": "Date"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:1607006999",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+      "diagramLabel": [
+        {
+          "@value": "Integer"
+        }
+      ]
+    },
+    {
+      "@id": "urn:oslo-toolchain:499715870",
+      "@type": "Datatype",
+      "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "diagramLabel": [
+        {
+          "@value": "DateTime"
+        }
+      ]
+    }
+  ],
+  "referencedEntities": [
+    {
+      "@id": "urn:oslo-toolchain:ea84420356a0a71c09e29034b043e9a6c87ecf0e09cfaf367772f5002c17cbc3",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://www.w3.org/ns/org#Organization",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Organisatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Organisatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "NOTE"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:6e09ec80c21123f03391b9e9f0b97cbe8c4d73b29be4a04ac5f815ecac5d96a6",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Publieke Organisatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "PubliekeOrganisatie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een Organisatie die volgens een wettelijk kader behoort tot de publieke sector, ongeacht het bestuursniveau waarop dat kader van kracht is."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "NOTE"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:c0f25d8c9350f86ae5c52de02437cb27283b258dee3f098578afedf95a84a228",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Persoonsgebeurtenis"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Persoonsgebeurtenis"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Belangrijke gebeurtenis ih leven ve persoon."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "nl",
+          "@value": ""
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:566e9afb6c4eee00f457c9ed08ccf8bd9f11dffcb8076cf22b0e59017f59f1e3",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://purl.org/dc/terms/Agent",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Agent"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Agent"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ce70e79672fe4729cb441cf846c18ad16b157c18b76b3207f584e2dde5eb2cf8",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#UnieRGLV",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Unie RG LV"
+        }
+      ],
+      "apLabel": [
+        {
+          "@language": "nl",
+          "@value": "Unie RG LV"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "UnieRGLV"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Unie van Rechtsgrond en Legale Verschijningsvorm"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Unie van Rechtsgrond en Legale Verschijningsvorm"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/InPublicationEnvironment"
+    },
+    {
+      "@id": "urn:oslo-toolchain:cfdf200fa1f0e971f824a1d49caef84b785ecc795d0e1b97c61a6503eed35b34",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://purl.org/vocab/cpsv#FormalFramework",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Formeel Kader"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "FormeelKader"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:7b835f57129688659a8d5a8d7d003f5ae4fad3b8edbfcaacbb8eee51fea3b3ae",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://www.w3.org/ns/prov#Activity",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Activiteit"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Activiteit"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Handeling van bepaalde duur op of met entiteiten."
+        }
+      ],
+      "vocUsageNote": [
+        {
+          "@language": "usagenote",
+          "@value": "Bv het consumeren, verwerken, transformeren, wijzigen, verplaatsen, gebruiken of genereren van entiteiten."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:64f8693605cd1d44fc90c9fc4b2bf4a4c087af7445d712f59330e72f597c2642",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "assignedURI": "http://www.w3.org/ns/org#Post",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Positie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Positie"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Positie binnen een Organisatie, kan bestaan los vd persoon of personen die ze invult."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Laat ook toe om ambsthalve posities weer te geven. Zo is een minister automatisch lid vd regering, ongeacht door welke persoon deze Functie wordt uitgeoefend."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e69bb238816c573866c295c789bf85e7bbd085292a28895e6c8726225dd8fca4",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "diagramLabel": [
+        {
+          "@value": "Code"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5dd51c5c32cfae06f11f18ec822ddad58ae603cfe06da726c96248c87b5cae8a",
+      "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "diagramLabel": [
+        {
+          "@value": "GetypeerdeString"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:679d8c58497c20d337783493234ef974083b7202f9067f14c9e10e8c6aadbafe",
+      "assignedURI": "http://www.w3.org/ns/prov#Location",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Locatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Locatie"
+        }
+      ],
+      "vocDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Een locatie kan een identificeerbare geografische locatie zijn (ISO 19112), maar deze locatie kan ook een niet-geografische locatie zijn, zoals een directory, rij of kolom. Als zodanig zijn er talloze manieren waarop locatie kan worden uitgedrukt, zoals d"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Aanduiding van een geogrrafische positie, dmv coordinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio of verwijzing naar een adres."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "usagenote",
+          "@value": "Te gebruiken als de manier waarop de geografische positie wordt aangeduid pas zal worden vastgelegd bij implementatie. Is deze manier nu al gekend dan moet direct gewerkt worden met Geometrie, GeografischeNaam, Adres etc."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ecc6b4e637f8f807e6ea422391f1406a92bbc43ed3955a94aa1ba634c49a7c74",
+      "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Identificator"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Identificator"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:b3b507b9715a1e84a5d1cbaa2d213ad4033bef1ec8d361336ff5e492c232aba8",
+      "assignedURI": "http://www.w3.org/ns/prov#Generation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Creatie"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Creatie"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:ea7f25b608970cec29ee66229292651b2c63f1abf355505d5a5ce4bfbd67ec9c",
+      "assignedURI": "http://www.w3.org/ns/prov#Invalidation",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Opheffing"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Opheffing"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:c2fffd3e85a88ee6949e408e0152a13cf4e9ffa8096c1146535b1f82add6f3d0",
+      "assignedURI": "http://schema.org/ContactPoint",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Contactpunt"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "ContactInfo"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:5114c69fde9d957ab682749a3e17c61972189b07eb732f64bdd64814f2623614",
+      "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+      "diagramLabel": [
+        {
+          "@value": "Geslacht"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:45f8d716580b8b5bee036cfb00bd661c6ac24cbf0efe15a886444093790f3071",
+      "assignedURI": "http://data.europa.eu/eli/ontology#ResourceType",
+      "diagramLabel": [
+        {
+          "@value": "ResourceType"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:1cc0217f7e8851eea25c8dffe1ccd59c45f12c5ae50b140332d097ca07954734",
+      "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+      "diagramLabel": [
+        {
+          "@value": "TaalString"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:04394dd0bdd3bb94a99c502d7556d6422f43ee391e2bf4673789e3f7031db70f",
+      "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "TijdsInterval"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Tijdsinterval"
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    },
+    {
+      "@id": "urn:oslo-toolchain:e89a89bde93a1569ba3fb082729c2194692218f82834c4d7ff88721564a5a78c",
+      "assignedURI": "http://www.w3.org/ns/org#Role",
+      "vocLabel": [
+        {
+          "@language": "nl",
+          "@value": "Rol"
+        }
+      ],
+      "diagramLabel": [
+        {
+          "@value": "Rol"
+        }
+      ],
+      "apDefinition": [
+        {
+          "@language": "nl",
+          "@value": "Rol die een Agent kan vervullen binnen een Organisatie."
+        }
+      ],
+      "apUsageNote": [
+        {
+          "@language": "nl",
+          "@value": "Kan een rol zijn ihkv een Lidmaatschap of ihkv een Functie."
+        }
+      ],
+      "scope": "https://data.vlaanderen.be/id/concept/scope/External"
+    }
+  ]
+}
