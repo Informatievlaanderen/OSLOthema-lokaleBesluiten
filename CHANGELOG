@@ -41,72 +41,26 @@ Uitbreidingen van de informatie in het register:
 - Template
 - Verkeerstekenconcept Status
 - Vorm 
+- Variabele
+- Variabele instantie 
+- Variabele instantie met locatie
+- Variabele instantie met verwijzing
+- Variabele instantie met waarde
+- Variabele met locatie
+- Variabele met verwijzing
+- Variabele met waarde
 
 ### Andere Wijzigingen
+- range van attribuut zone op mobiliteitsmaatregel werd gewijzigd van Geometrie naar klasse Zone om te aligneren met inname openbaar domein
+- range van doelgroep op mobiliteitsmaatregel werd gewijzigd van Agent naar Concept om het gebruik van een codelijst te stimuleren
+- attributen heeft route, heeft gevolg, contactinfo, tijdsinterval op mobiliteitsmaatregel werden verwijderd
+- attribuut plaatsbeschrijving werd vervangen door het attribuut plaatsbepaling zoals gedefinieerd in het vocabularium
+- 
 
-# 2025-03-12
-  - start wijziging voor toolchain 4 processing
-  - tag rollout-toolchain4 om de laatste commit aan te duiden voor de rollout van toolchain4
-
+# 2025-07-26
 ## mandaat/mandatendatabank
-
-fix EAP issues:
-2025-03-12T15:28:23.623Z error: [AttributeConverterHandler]: Package tag was defined (Besluit), but unable to find a related package object for attribute (Model:OSLO²_applicatieprofiel_Mandaat_mandatendatabank:OSLO-Generiek:Activiteit:geplandeStart).
-   > verwijder annotatie package besluit 
-2025-03-12T15:28:23.625Z error: [ElementConverterHandler]: Package tag was defined for element Model:OSLO²_applicatieprofiel_Mandaat_mandatendatabank:OSLO-Wetgeving:Legale Verschijningsvorm Onderdeel, but unable to find the object for package Besluit.
-   > verwijder annotatie package besluit
-Error: [AttributeConverterHandler]: Unable to find domain object for attribute (Model:Domain Model:OSLO²_vocabularium:OSLO-Mandaat:Lidmaatschap:lidVanTot).
-   > verwijder de ignore tag op de associatieklasse lidmaatschap
-Error: Unable to find the assigned URI for class http://www.w3.org/ns/prov#Entity which acts as a parent.
-   > verwijder parentURI annotatie voor Generiek:Versie
-
-gebruik de juiste basistemplates
-   - verwijder links naar niet onderhouden pagina's
-   - vervang de feedback issue list met deze repo specifieke
-   - gebruik de default JSON-LD generator output
-
-TODO:
-  herconfiguratie voor de associatieklasse in het AP.
-
+- fix associatie klasse voor toolchain4
+- verscheidene correcties in het kader van toolchain4
 ## besluit/besluit-publicatie
+- verscheidene correcties in het kader van toolchain4
 
-EAP besluit-publicatie: verwijder alles wat niet relevant is van OSLO-Mandaat vocabularium
-EAP besluit-voc: verwijder niet relevante vocabularia om zo een beperkere EAP te bekomen.
-    - eigenschap vergunt is ambigue in de range: via een tag is het rdfs:Resource en via UML is het Object (prov:Entity)
-    - geef alle connectoren card 0..*
-
-aanpassing basistemplates
-
-TODO: https://data.vlaanderen.be/doc/applicatieprofiel/besluit-publicatie/#Documentonderdeel%3Ais%20onderdeel%20van ontbreekt
-teveel https://data.test-vlaanderen.be/doc/applicatieprofiel/besluit-publicatie/ontwerpstandaard/toolchain4/#Mandataris%3Aistijdelijkvervangendoor
-
-http://data.vlaanderen.be/ns/besluit#heeftVoorwaarde heeft ontbrekende definitie
-toolchain 4 issue: vocabularia ondersteunen geen subproperties
-
-
-## besluit-mobiliteit
-Deze standaard is nog steeds Kandidaat. Contact moet opgenomen worden met de huidige editoren.
-
-EAP:
-  - pas verschillende range herlinkingen toe
-  - verwijder OSLO-Mandaat
-  - pas range Template.waarde aan naar xsd:String ipv rdf:HTML (niet ondersteunde interne waarde)
-
-VerkeersbordCategorie komt voor als enumeratie en klasse. TODO: Verwijder 1 van de 2
-
-template:
-  - aanpassing naar nieuwe basistemplates
-  - verwijding referntie naar JSON-LD, om de default generatie te gebruiken
-
-TODO:
-  - status in de template staat ontwerp.
-  - toolchain 4 issue: Dimentie.waarde zou een xsd:float moeten zijn maar op een of andere manier wordt dit niet aanvaard. 
-          Tijdelijk naar integer gezet.
-
-# bestuur
-Deze standaard is een lege placeholder.
-  Beter dit op te lossen in de template.
-
-
-TODO: 
-  - verwijder branch master-node-toolchain
