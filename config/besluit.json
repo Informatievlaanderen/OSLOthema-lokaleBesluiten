@@ -5,7 +5,7 @@
   "diagram": "OSLO-Besluit",
   "template": "besluit-voc.j2",
   "title": "Besluit",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "publication-date": "11-09-2025",
   "erkenning-date": "20-07-2018",
   "contributors-file": "stakeholders.csv",
