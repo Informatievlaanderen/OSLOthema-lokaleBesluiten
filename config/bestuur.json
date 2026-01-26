@@ -1,16 +1,22 @@
 [{
   "name": "bestuur",
   "type": "voc",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "eap": "OSLO-Bestuur-VOC.eap",
   "diagram": "OSLO-Bestuur",
   "template": "bestuur-voc.j2",
   "title": "Bestuur",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "11-09-2025",
+  "publication-date": "2025-12-11",
   "erkenning-date": "niet-bepaald",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Bestuur",
   "site": "site-skeleton/bestuur-voc",
   "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-bestuur/"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-bestuur/",
+  "responsibleOrganisation": {
+    "name": "Agentschap Binnenlands Bestuur",
+    "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+  },
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Wetgeving"
 }]

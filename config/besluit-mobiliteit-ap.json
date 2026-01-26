@@ -2,17 +2,36 @@
   {
     "name": "besluit-mobiliteit-ap",
     "type": "ap",
+    "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
     "eap": "OSLO-Besluit-Mobiliteit-AP.eap",
     "diagram": "OSLO-Mobiliteit_applicatieprofiel_besluit_mobiliteit",
     "template": "besluit-mobiliteit-ap.j2",
     "title": "Besluit Mobiliteit - Applicatieprofiel",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-    "publication-date": "11-12-2025",
+    "publication-date": "2025-12-11",
+    "dateOfAcknowledgementBySteeringCommittee": "2025-12-11",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Mobiliteit",
     "site": "site-skeleton/besluit-mobiliteit-ap",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-besluit-mobiliteit/"
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-besluit-mobiliteit/",
+    "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+    "responsibleOrganisation": {
+      "name": "Agentschap Binnenlands Bestuur",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+    },
+    "documentation": [{
+      "name": "Documentatie in kader van het VLAG project",
+      "resourceReference": "https://github.com/lblod/doc-vlag"
+    }],
+    "implementations": [{
+        "name": "VKS design service",
+        "resourceReference": "https://github.com/lblod/vks-design-service"
+      }, {
+        "name": "Gelinkt Notuleren",
+        "resourceReference": "https://github.com/lblod/app-gelinkt-notuleren"
+    }],
+    "domain": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
   }
 ]

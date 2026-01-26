@@ -1,16 +1,24 @@
 [{
   "name": "mobiliteit",
   "type": "voc",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "eap": "OSLO-Besluit-Mobiliteit-AP.eap",
   "diagram": "OSLO-Mobiliteit_voc",
   "template": "mobiliteit-voc.j2",
   "title": "Mobiliteit",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-  "publication-date": "11-12-2025",
-  "erkenning-date": "niet-bepaald",
+  "publication-date": "2025-12-11",
+  "erkenning-date": "2025-12-11",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-12-11",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Mobiliteit",
   "site": "site-skeleton/besluit-voc",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-besluit-mobiliteit/"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-besluit-mobiliteit/",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "responsibleOrganisation": {
+    "name": "Agentschap Binnenlands Bestuur",
+    "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+  },
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Mobiliteit"
 }]

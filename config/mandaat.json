@@ -1,16 +1,24 @@
 [{
   "name": "mandaat",
   "type": "voc",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "eap": "OSLO-Mandaat-VOC.eap",
   "diagram": "OSLO-Mandaat",
   "template": "mandaat-voc.j2",
   "title": "Mandaat",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-  "publication-date": "11-09-2025",
-  "erkenningsdatum": "03-07-2018",
+  "publication-date": "2025-09-11",
+  "erkenningsdatum": "2018-07-03",
+  "dateOfAcknowledgementBySteeringCommittee": "2025-12-11",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Mandaat",
   "site": "site-skeleton/mandaat-voc",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-mandaat/"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-mandaat/",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht",
+  "responsibleOrganisation": {
+    "name": "Agentschap Binnenlands Bestuur",
+    "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+  },
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Wetgeving"
 }]
