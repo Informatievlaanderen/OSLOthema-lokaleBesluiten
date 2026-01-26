@@ -5,7 +5,7 @@
   "diagram": "OSLO-Mandatendatabank",
   "template": "mandatendatabank-ap.j2",
   "title": "Mandatendatabank",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "publication-date": "11-09-2025",
   "erkenningsdatum": "03-07-2018",
   "contributors-file": "stakeholders.csv",
