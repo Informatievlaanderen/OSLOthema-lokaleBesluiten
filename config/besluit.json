@@ -1,6 +1,7 @@
 [{
   "name": "besluit",
   "type": "voc",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "eap": "OSLO-Besluit-VOC.eap",
   "diagram": "OSLO-Besluit",
   "template": "besluit-voc.j2",
@@ -8,9 +9,16 @@
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "publication-date": "11-09-2025",
   "erkenning-date": "20-07-2018",
+  "dateOfAcknowledgementBySteeringCommittee": "11-12-2025",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Besluit",
   "site": "site-skeleton/besluit-voc",
   "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-besluit/"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-besluit/",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht",
+  "responsibleOrganisation": {
+    "name": "Agentschap Binnenlands Bestuur",
+    "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+  },
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Wetgeving"
 }]

@@ -1,6 +1,7 @@
 [{
   "name": "besluit-publicatie",
   "type": "ap",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "eap": "OSLO-Besluit-Publicatie-AP.eap",
   "diagram": "OSLO-Besluit-Publicatie",
   "template": "besluit-publicatie-ap.j2",
@@ -8,9 +9,31 @@
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "publication-date": "11-09-2025",
   "erkenning-date": "20-07-2018",
+  "dateOfAcknowledgementBySteeringCommittee": "11-12-2025",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Besluit",
   "site": "site-skeleton/besluit-publicatie-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-lokaleBesluiten/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-besluit-publicatie/"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-besluit-publicatie/",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Verplicht",
+  "responsibleOrganisation": {
+    "name": "Agentschap Binnenlands Bestuur",
+    "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+  },
+  "implementations": [{
+      "name": "Gelinkt Notuleren",
+      "resourceReference": "https://github.com/lblod/app-gelinkt-notuleren"
+    }, {
+      "name": "LBLOD validatietool",
+      "resourceReference": "https://validatietool.lblod.info/"
+  }],
+  "relevantStandards": [{
+    "name": "European Legislation Identifier (ELI)",
+    "resourceReference": "https://eur-lex.europa.eu/content/help/eurlex-content/eli.html"
+  }],
+  "dataExamples": [{
+    "name": "Annotaties voor bijlagen bij een Besluit",
+    "resourceReference": "https://lblod.github.io/pages-vendors/#/docs/bijlagen-annotaties"
+  }],
+  "domain": "https://data.vlaanderen.be/id/concept/Domein/Wetgeving"
 }]
