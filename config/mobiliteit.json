@@ -3,7 +3,7 @@
   "type": "voc",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "eap": "OSLO-Besluit-Mobiliteit-AP.eap",
-  "diagram": "OSLO-Mobiliteit_voc",
+  "diagram": "OSLO-Mobiliteit_vocabularium_mobiliteit",
   "template": "mobiliteit-voc.j2",
   "title": "Mobiliteit",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
