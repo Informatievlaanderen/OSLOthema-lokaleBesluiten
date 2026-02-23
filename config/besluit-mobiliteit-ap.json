@@ -1,6 +1,6 @@
 [
   {
-    "name": "besluit-mobiliteit-ap",
+    "name": "besluit-mobiliteit",
     "type": "ap",
     "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
     "eap": "OSLO-Besluit-Mobiliteit-AP.eap",
