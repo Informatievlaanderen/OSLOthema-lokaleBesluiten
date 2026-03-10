@@ -1,75 +1,137 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
 
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/467e89ae-0cfc-4a91-b29f-82c3cfc2bc6a> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "In ontwerp"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
- 
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/9b0b6915-1ad5-4eff-90f0-0486a3562493> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Verwijdering in ontwerp"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/13fc4b70-2d88-4d11-a512-b36bce2d0fbf> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "In voorontwerp"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/b42c1cf8-0cb4-4faa-a740-f073a3ed3a0c> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Verwijdering in voorontwerp"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3447a138-87d6-4745-b081-2faf02aed3f1> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Ontwerp ter goedkeuring"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/5eb131f1-06f6-473d-b18a-9ab6b4470810> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Verwijdering ter goedkeuring"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/64e54352-de4e-4a5b-9322-79c5f8010620> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Afgesloten"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/c6bcbe00-54b8-45cd-a52a-29228db371dd> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Verwijdering afgesloten"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3e869c24-2777-4e95-87a3-f97cd2f7289a> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Goedgekeurd"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/ca7a6ea2-3a07-4de3-87d5-0f9295fbf0bd> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Verwijdering goedgekeurd"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/49e1818b-af6d-438c-9d90-886d8eb372fb> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Geweigerd"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1a902ca6-4611-46a8-be8a-13e997820ce0> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Verwijdering geweigerd"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/fc1036e7-703b-4290-b732-49abb39d0588> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Uitgevoerd"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/2826e311-ce64-417c-be93-29a2516e81e1> rdf:type skos:Concept ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> ;
-    skos:prefLabel "Verwijdering uitgevoerd"@nl ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> .
-
-<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> rdf:type skos:ConceptScheme ;
-    skos:prefLabel "Verkeerstekenontwerpstatus"@nl .
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> a skos:ConceptScheme;
+    dct:title "Verkeerstekenontwerpstatus"@nl;
+    skos:prefLabel "Verkeerstekenontwerpstatus"@nl;
+    dct:title "Verkeerstekenontwerpstatus"@nl;
+    skos:prefLabel "Verkeerstekenontwerpstatus"@nl;
+    dct:identifier "ed4b6926-acc9-4545-be2e-2a2d683b8aa7";
+    skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1c6b6dae-8ffc-4a1b-97a9-b6f2cd943cf8>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1c6b6dae-8ffc-4a1b-97a9-b6f2cd943cf8> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/e3b880ac-8186-4c0f-9ab3-439cab4ec130>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/e3b880ac-8186-4c0f-9ab3-439cab4ec130> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/56bf79cd-0b9d-4658-a394-5e56077729b0>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/56bf79cd-0b9d-4658-a394-5e56077729b0> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3f4fc0f2-d039-491c-9cdf-a1db31860d05>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3f4fc0f2-d039-491c-9cdf-a1db31860d05> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/7bf5dad3-244a-4cc3-9a2b-b96ac656f4b6>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/7bf5dad3-244a-4cc3-9a2b-b96ac656f4b6> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1b20f33b-c04a-4e3b-b608-9991c3142d65>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1b20f33b-c04a-4e3b-b608-9991c3142d65> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/4ed63f9b-f195-46f0-8d17-d3c682e771f6>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/4ed63f9b-f195-46f0-8d17-d3c682e771f6> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/467e89ae-0cfc-4a91-b29f-82c3cfc2bc6a>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/467e89ae-0cfc-4a91-b29f-82c3cfc2bc6a> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/9b0b6915-1ad5-4eff-90f0-0486a3562493>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/9b0b6915-1ad5-4eff-90f0-0486a3562493> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/13fc4b70-2d88-4d11-a512-b36bce2d0fbf>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/13fc4b70-2d88-4d11-a512-b36bce2d0fbf> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/b42c1cf8-0cb4-4faa-a740-f073a3ed3a0c>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/b42c1cf8-0cb4-4faa-a740-f073a3ed3a0c> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3447a138-87d6-4745-b081-2faf02aed3f1>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3447a138-87d6-4745-b081-2faf02aed3f1> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/5eb131f1-06f6-473d-b18a-9ab6b4470810>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/5eb131f1-06f6-473d-b18a-9ab6b4470810> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/64e54352-de4e-4a5b-9322-79c5f8010620>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/64e54352-de4e-4a5b-9322-79c5f8010620> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/c6bcbe00-54b8-45cd-a52a-29228db371dd>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/c6bcbe00-54b8-45cd-a52a-29228db371dd> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3e869c24-2777-4e95-87a3-f97cd2f7289a>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3e869c24-2777-4e95-87a3-f97cd2f7289a> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/ca7a6ea2-3a07-4de3-87d5-0f9295fbf0bd>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/ca7a6ea2-3a07-4de3-87d5-0f9295fbf0bd> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/49e1818b-af6d-438c-9d90-886d8eb372fb>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/49e1818b-af6d-438c-9d90-886d8eb372fb> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1a902ca6-4611-46a8-be8a-13e997820ce0>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1a902ca6-4611-46a8-be8a-13e997820ce0> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/fc1036e7-703b-4290-b732-49abb39d0588>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/fc1036e7-703b-4290-b732-49abb39d0588> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus> skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/2826e311-ce64-417c-be93-29a2516e81e1>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/2826e311-ce64-417c-be93-29a2516e81e1> skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>.
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/467e89ae-0cfc-4a91-b29f-82c3cfc2bc6a> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "In ontwerp"@nl;
+    dct:identifier "7b82f5cf-d4cb-46d5-89f3-a805e9f307bf".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/9b0b6915-1ad5-4eff-90f0-0486a3562493> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Verwijdering in ontwerp"@nl;
+    dct:identifier "2372c9ef-fb54-481b-a25d-0c69f49457a8".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/13fc4b70-2d88-4d11-a512-b36bce2d0fbf> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "In voorontwerp"@nl;
+    dct:identifier "4faaf53b-4d49-4143-8722-8b48617bd280".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/b42c1cf8-0cb4-4faa-a740-f073a3ed3a0c> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Verwijdering in voorontwerp"@nl;
+    dct:identifier "19901959-6884-4c59-9a74-28798dc8f52c".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3447a138-87d6-4745-b081-2faf02aed3f1> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Ontwerp ter goedkeuring"@nl;
+    dct:identifier "29a269b9-f626-4c9c-884c-fed444c49bc6".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/5eb131f1-06f6-473d-b18a-9ab6b4470810> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Verwijdering ter goedkeuring"@nl;
+    dct:identifier "c5e95cb5-de21-4632-ac7d-1efa2e2bb916".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/64e54352-de4e-4a5b-9322-79c5f8010620> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Afgesloten"@nl;
+    dct:identifier "59af60d6-f2b2-490f-bb91-0cc3b7a4ce67".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/c6bcbe00-54b8-45cd-a52a-29228db371dd> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Verwijdering afgesloten"@nl;
+    dct:identifier "aea9448e-31d7-4a16-bb59-7790c83dca7b".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3e869c24-2777-4e95-87a3-f97cd2f7289a> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Goedgekeurd"@nl;
+    dct:identifier "148dae97-25df-4e28-9be1-e4fd236f5862".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/ca7a6ea2-3a07-4de3-87d5-0f9295fbf0bd> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Verwijdering goedgekeurd"@nl;
+    dct:identifier "23942eb1-0b80-4b4d-ad50-c24dafcf5a36".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/49e1818b-af6d-438c-9d90-886d8eb372fb> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Geweigerd"@nl;
+    dct:identifier "2acf1902-2803-4f47-beed-fb3a860f9f59".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1a902ca6-4611-46a8-be8a-13e997820ce0> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Verwijdering geweigerd"@nl;
+    dct:identifier "ed909c56-0176-4878-90dd-5e531934468a".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/fc1036e7-703b-4290-b732-49abb39d0588> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Uitgevoerd"@nl;
+    dct:identifier "3b7eeaba-0f59-4b63-8ad8-8618558de469".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/2826e311-ce64-417c-be93-29a2516e81e1> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Verwijdering uitgevoerd"@nl;
+    dct:identifier "615afe1c-a0eb-440b-a3bf-6711d3fde47d".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1c6b6dae-8ffc-4a1b-97a9-b6f2cd943cf8> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Bestaand in voorontwerp"@nl;
+    dct:identifier "be7301fb-ec9f-44b9-8055-12df6605c8fc".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/e3b880ac-8186-4c0f-9ab3-439cab4ec130> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Bestaand in ontwerp"@nl;
+    dct:identifier "ca718320-b03b-4413-87be-0cbf560968b1".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/56bf79cd-0b9d-4658-a394-5e56077729b0> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Bestaand ter goedkeuring"@nl;
+    dct:identifier "8aa70752-54a7-4bfd-899a-750eef239c53".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/3f4fc0f2-d039-491c-9cdf-a1db31860d05> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Bestaand afgesloten"@nl;
+    dct:identifier "c011a253-622f-4292-b41a-61c5b9169fd9".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/7bf5dad3-244a-4cc3-9a2b-b96ac656f4b6> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Bestaand goedgekeurd"@nl;
+    dct:identifier "c9552b05-3de9-4a6e-8758-75bf7fda5409".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/1b20f33b-c04a-4e3b-b608-9991c3142d65> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Bestaand geweigerd"@nl;
+    dct:identifier "f8ac61d5-d1f3-4290-9e05-38290ec2313c".
+<https://data.vlaanderen.be/id/concept/Verkeerstekenontwerpstatus/4ed63f9b-f195-46f0-8d17-d3c682e771f6> a skos:Concept;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verkeerstekenontwerpstatus>;
+    skos:prefLabel "Bestaand uitgevoerd"@nl;
+    dct:identifier "707973f9-d4f8-43bc-95f4-00f121ee7c71".
